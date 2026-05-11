@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260510-004",
+  "title": "Task Paralysis and AI",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-10T11:15:20.330069+00:00",
+  "collected_at": "2026-05-10T11:15:20.330069+00:00",
+  "summary": "本文探讨了AI如何帮助缓解任务瘫痪（task paralysis），即人们因决策过度或完美主义而难以开始或完成任务的现象。通过提供自动化建议、分解任务和降低认知负荷，AI可以提升工作效率和决策能力。",
+  "score": 7,
+  "tags": [
+    "AI productivity",
+    "task management",
+    "decision fatigue"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-10T11:16:01.265024+00:00"
+}

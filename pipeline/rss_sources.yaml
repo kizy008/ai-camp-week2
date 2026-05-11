@@ -1,0 +1,60 @@
+# RSS 数据源配置
+# enabled: true 表示启用采集，false 表示暂不采集
+# 量太大的源默认设为 enabled: false，避免频繁请求被限流
+
+sources:
+  # ===========================================
+  # 综合技术
+  # ===========================================
+  - name: "Hacker News Frontpage"
+    url: "https://hnrss.org/frontpage"
+    category: "comprehensive"
+    enabled: true
+
+  # Lobsters RSS URL 已变更，新版 URL 待确认
+  - name: "Lobsters AI/ML"
+    url: "https://lobste.rs/tags/ai/ml.rss"
+    category: "comprehensive"
+    enabled: false
+
+  # ===========================================
+  # AI 研究
+  # ===========================================
+  - name: "arXiv cs.AI"
+    url: "http://export.arxiv.org/rss/cs.AI"
+    category: "ai_research"
+    enabled: false        # 每日新增论文量大，按需启用
+
+  # ===========================================
+  # 公司博客
+  # ===========================================
+  # OpenAI 博客 RSS 返回 403，暂不可用
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss"
+    category: "company_blog"
+    enabled: false
+
+  # Anthropic RSS URL 返回 404，可能已变更
+  - name: "Anthropic Research"
+    url: "https://www.anthropic.com/research/rss"
+    category: "company_blog"
+    enabled: false
+
+  # HuggingFace RSS 在本环境网络不可达
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "company_blog"
+    enabled: false
+
+  # ===========================================
+  # 中文社区（默认 disabled，需人工确认 RSS 可用性）
+  # ===========================================
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: "chinese_community"
+    enabled: false        # RSS 可用性待确认
+
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: "chinese_community"
+    enabled: false        # RSS 可用性待确认
