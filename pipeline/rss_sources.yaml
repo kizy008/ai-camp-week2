@@ -1,48 +1,52 @@
 sources:
 
-  # ===========================================
-  # AI 研究 (arXiv — 已验证可用)
-  # ===========================================
-  - name: "arXiv cs.AI"
-    url: "https://rss.arxiv.org/rss/cs.AI"
-    category: "ai_research"
-    enabled: true
-
-  - name: "arXiv cs.LG"
-    url: "https://rss.arxiv.org/rss/cs.LG"
-    category: "ai_research"
-    enabled: true
-
-  - name: "arXiv cs.CL"
-    url: "https://rss.arxiv.org/rss/cs.CL"
-    category: "ai_research"
-    enabled: true
-
-  # arXiv cs.MA — 多智能体系统，直接覆盖 agent 编排/协作/harness 等内容
+  # ═══════════════════════════════════════════════
+  # [最高优先级] Agent 系统
+  # ═══════════════════════════════════════════════
+  # arXiv cs.MA — 多智能体系统，覆盖 agent 编排/协作/harness 等
   - name: "arXiv cs.MA"
     url: "https://rss.arxiv.org/rss/cs.MA"
     category: "agent_systems"
     enabled: true
 
-  # ===========================================
-  # Agent 应用（HN 按关键词过滤）
-  # ===========================================
+  # HN 按关键词 "agent" 过滤，只抓取 agent 相关讨论
   - name: "Hacker News Agent"
     url: "https://hnrss.org/frontpage?q=agent&count=10"
     category: "agent_systems"
     enabled: true
 
-  # ===========================================
-  # 综合技术（暂时禁用）
-  # ===========================================
+  # ═══════════════════════════════════════════════
+  # [高优先级] AI 综合（包含大量 agent 论文）
+  # ═══════════════════════════════════════════════
+  # arXiv cs.AI — 人工智能全领域，含 agent/planning/reasoning
+  - name: "arXiv cs.AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "ai_research"
+    enabled: true
+
+  # ═══════════════════════════════════════════════
+  # [中等优先级] 机器学习
+  # ═══════════════════════════════════════════════
+  # arXiv cs.LG — 机器学习（agent 底层技术支撑）
+  - name: "arXiv cs.LG"
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: "ml_research"
+    enabled: true
+
+  # arXiv cs.CL — 计算语言学 / NLP（LLM agent 基础）
+  - name: "arXiv cs.CL"
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: "ml_research"
+    enabled: true
+
+  # ═══════════════════════════════════════════════
+  # [已禁用] 综合 / 不可达源
+  # ═══════════════════════════════════════════════
   - name: "Hacker News Frontpage"
     url: "https://hnrss.org/frontpage"
     category: "comprehensive"
     enabled: false
 
-  # ===========================================
-  # 无法修复的源（保留供参考）
-  # ===========================================
   # OpenAI Blog — 返回 403，服务器屏蔽
   - name: "OpenAI Blog"
     url: "https://openai.com/blog/rss"
