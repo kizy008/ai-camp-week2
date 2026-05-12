@@ -54,7 +54,7 @@ def collect_github(limit: int = 10) -> list[dict[str, Any]]:
     if token:
         headers["Authorization"] = f"token {token}"
 
-    query = "topic:ai OR topic:llm OR topic:machine-learning OR topic:deep-learning OR topic:artificial-intelligence OR topic:nlp OR topic:computer-vision OR topic:generative-ai OR topic:large-language-model stars:>50"
+    query = "topic:ai OR topic:llm OR topic:machine-learning OR topic:deep-learning OR topic:artificial-intelligence OR topic:nlp OR topic:computer-vision OR topic:generative-ai OR topic:large-language-model OR topic:agents OR topic:multi-agent-system OR topic:agentic OR topic:autonomous-agents stars:>50"
     url = "https://api.github.com/search/repositories"
     params = {
         "q": query,

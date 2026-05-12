@@ -18,8 +18,22 @@ sources:
     category: "ai_research"
     enabled: true
 
+  # arXiv cs.MA — 多智能体系统，直接覆盖 agent 编排/协作/harness 等内容
+  - name: "arXiv cs.MA"
+    url: "https://rss.arxiv.org/rss/cs.MA"
+    category: "agent_systems"
+    enabled: true
+
   # ===========================================
-  # 综合技术（由 arXiv 替代，暂时禁用）
+  # Agent 应用（HN 按关键词过滤）
+  # ===========================================
+  - name: "Hacker News Agent"
+    url: "https://hnrss.org/frontpage?q=agent&count=10"
+    category: "agent_systems"
+    enabled: true
+
+  # ===========================================
+  # 综合技术（暂时禁用）
   # ===========================================
   - name: "Hacker News Frontpage"
     url: "https://hnrss.org/frontpage"
