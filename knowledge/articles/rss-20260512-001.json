@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-001",
+  "title": "Bambu Lab is abusing the open source social contract",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452704+00:00",
+  "collected_at": "2026-05-12T15:28:36.452704+00:00",
+  "summary": "该内容讨论 Bambu Lab 公司被指控违背开源社区契约，可能利用开源 GPL 许可的代码但未完全履行回馈义务，引发社区信任危机。文章分析其商业行为与开源精神的冲突，并指出这对 3D 打印生态系统的长期影响。",
+  "score": 8,
+  "tags": [
+    "open source",
+    "3D printing",
+    "ethics",
+    "GPL",
+    "community backlash"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323851+00:00"
+}

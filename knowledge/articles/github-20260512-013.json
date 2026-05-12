@@ -1,0 +1,20 @@
+{
+  "id": "github-20260512-013",
+  "title": "scutan90/DeepLearning-500-questions",
+  "source": "github",
+  "source_url": "https://github.com/scutan90/DeepLearning-500-questions",
+  "author": "scutan90",
+  "published_at": "2024-06-26T12:10:14Z",
+  "collected_at": "2026-05-12T15:28:36.177679+00:00",
+  "summary": "一个以问答形式系统梳理深度学习及相关数学、机器学习、计算机视觉等知识的开源项目，包含500个问题，共18章50余万字，适合巩固和提升深度学习理解。",
+  "score": 8,
+  "tags": [
+    "深度学习",
+    "机器学习",
+    "计算机视觉",
+    "问答库"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323825+00:00"
+}

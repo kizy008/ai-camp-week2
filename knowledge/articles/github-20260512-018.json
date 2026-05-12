@@ -1,0 +1,20 @@
+{
+  "id": "github-20260512-018",
+  "title": "gradio-app/gradio",
+  "source": "github",
+  "source_url": "https://github.com/gradio-app/gradio",
+  "author": "gradio-app",
+  "published_at": "2026-05-12T14:55:53Z",
+  "collected_at": "2026-05-12T15:28:36.177692+00:00",
+  "summary": "Gradio是一个Python库，允许开发者快速构建和分享机器学习应用的交互式界面，无需前端开发经验。通过简单的API，用户可以将模型封装为Web应用，便于演示、测试和协作。",
+  "score": 9,
+  "tags": [
+    "machine-learning",
+    "python",
+    "app-building",
+    "data-science"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323841+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260512-010",
+  "title": "Extremely Low Frequencies",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://computer.rip/2026-05-09-extremely-low-frequencies.html",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452754+00:00",
+  "collected_at": "2026-05-12T15:28:36.452754+00:00",
+  "summary": "This article discusses the technology and applications of extremely low frequency (ELF) electromagnetic waves, primarily used for challenging communication scenarios like submarine communication and geophysical research. It explores the principles, engineering challenges, and practical use cases, providing a technical deep dive for readers with some background in electromagnetics.",
+  "score": 8,
+  "tags": [
+    "electromagnetism",
+    "communications",
+    "submarine",
+    "physics"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323889+00:00"
+}

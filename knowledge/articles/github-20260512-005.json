@@ -1,0 +1,20 @@
+{
+  "id": "github-20260512-005",
+  "title": "microsoft/ML-For-Beginners",
+  "source": "github",
+  "source_url": "https://github.com/microsoft/ML-For-Beginners",
+  "author": "microsoft",
+  "published_at": "2026-05-08T23:43:14Z",
+  "collected_at": "2026-05-12T15:28:36.177648+00:00",
+  "summary": "微软提供的面向初学者的经典机器学习课程，包含12周26节课程和52个测验，适合零基础入门。",
+  "score": 8,
+  "tags": [
+    "machine learning",
+    "education",
+    "beginner",
+    "microsoft"
+  ],
+  "audience": "beginner",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323798+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260512-014",
+  "title": "Through the looking glass of benchmark hacking",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://poolside.ai/blog/through-the-looking-glass",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452764+00:00",
+  "collected_at": "2026-05-12T15:28:36.452764+00:00",
+  "summary": "本文探讨了AI基准测试中的常见操纵手法及其对模型评估真实性的影响，揭示了基准测试结果可能存在的系统性偏差，并提出了改进评估方法的建议。",
+  "score": 7,
+  "tags": [
+    "AI benchmarks",
+    "evaluation",
+    "ethics"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323901+00:00"
+}

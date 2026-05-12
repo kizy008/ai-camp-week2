@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260512-002",
+  "title": "Rendering the Sky, Sunsets, and Planets",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452723+00:00",
+  "collected_at": "2026-05-12T15:28:36.452723+00:00",
+  "summary": "本文介绍在计算机图形学中渲染逼真天空、日落和行星的技术方法，涵盖大气散射、颜色模型和光照算法，为图形开发者提供实用指导。",
+  "score": 7,
+  "tags": [
+    "rendering",
+    "computer graphics",
+    "atmospheric scattering"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323855+00:00"
+}

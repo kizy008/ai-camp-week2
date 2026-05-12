@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260512-015",
+  "title": "Postmortem: TanStack NPM supply-chain compromise",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452767+00:00",
+  "collected_at": "2026-05-12T15:28:36.452767+00:00",
+  "summary": "对TanStack npm供应链攻击事件的事后分析，揭露攻击者如何通过恶意包植入代码，并讨论缓解策略与开源生态安全教训。",
+  "score": 8,
+  "tags": [
+    "supply-chain security",
+    "npm",
+    "security",
+    "postmortem"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323904+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260512-013",
+  "title": "They Live (1988) inspired Adblocker",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://github.com/davmlaw/they_live_adblocker",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452762+00:00",
+  "collected_at": "2026-05-12T15:28:36.452762+00:00",
+  "summary": "该项目受1988年电影《They Live》的启发，利用计算机视觉技术识别现实世界中的广告内容并实现屏蔽，为用户提供一种新颖的广告拦截体验。",
+  "score": 7,
+  "tags": [
+    "adblocker",
+    "computer vision",
+    "augmented reality"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323898+00:00"
+}

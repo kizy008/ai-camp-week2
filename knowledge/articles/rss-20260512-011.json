@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260512-011",
+  "title": "Software Internals Book Club",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://eatonphil.com/bookclub.html",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452757+00:00",
+  "collected_at": "2026-05-12T15:28:36.452757+00:00",
+  "summary": "这是一个专注于软件内部原理的读书俱乐部，适合对系统编程和底层机制感兴趣的开发者参与讨论与学习。",
+  "score": 6,
+  "tags": [
+    "book club",
+    "software internals",
+    "systems programming"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323892+00:00"
+}

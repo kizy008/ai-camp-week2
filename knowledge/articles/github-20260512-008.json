@@ -1,0 +1,21 @@
+{
+  "id": "github-20260512-008",
+  "title": "josephmisiti/awesome-machine-learning",
+  "source": "github",
+  "source_url": "https://github.com/josephmisiti/awesome-machine-learning",
+  "author": "josephmisiti",
+  "published_at": "2026-05-12T13:17:23Z",
+  "collected_at": "2026-05-12T15:28:36.177660+00:00",
+  "summary": "这是一个精心整理的机器学习框架、库和软件资源列表，涵盖多种编程语言和工具，为开发者提供高效查找和选择ML技术栈的参考。该项目在GitHub上广受欢迎，是机器学习从业者的重要参考资料。",
+  "score": 8,
+  "tags": [
+    "machine-learning",
+    "frameworks",
+    "libraries",
+    "curated-list",
+    "resources"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323808+00:00"
+}

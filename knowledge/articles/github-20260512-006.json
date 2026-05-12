@@ -1,0 +1,20 @@
+{
+  "id": "github-20260512-006",
+  "title": "fighting41love/funNLP",
+  "source": "github",
+  "source_url": "https://github.com/fighting41love/funNLP",
+  "author": "fighting41love",
+  "published_at": "2024-05-10T07:38:24Z",
+  "collected_at": "2026-05-12T15:28:36.177651+00:00",
+  "summary": "这是一个极其全面的自然语言处理（NLP）资源集合，包含了从基础工具到前沿模型、数据集、知识图谱、语音处理等几乎所有NLP相关领域的资料。它为NLP开发者和研究者提供了丰富的开源代码和预训练模型，是学习和实践NLP的宝库。",
+  "score": 10,
+  "tags": [
+    "NLP",
+    "resources",
+    "toolkit",
+    "comprehensive"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323801+00:00"
+}

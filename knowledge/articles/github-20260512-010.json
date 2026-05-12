@@ -1,0 +1,20 @@
+{
+  "id": "github-20260512-010",
+  "title": "labmlai/annotated_deep_learning_paper_implementations",
+  "source": "github",
+  "source_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+  "author": "labmlai",
+  "published_at": "2026-01-22T04:26:00Z",
+  "collected_at": "2026-05-12T15:28:36.177670+00:00",
+  "summary": "该项目在GitHub上提供了60多种深度学习论文的带注释实现，涵盖transformer、优化器、GAN、强化学习等前沿领域，适合研究者和开发者深入理解并复现经典论文。",
+  "score": 9,
+  "tags": [
+    "deep learning",
+    "paper implementations",
+    "transformer",
+    "tutorials"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323815+00:00"
+}

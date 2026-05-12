@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260512-003",
+  "title": "UnDUNE II",
+  "source": "rss:Hacker News Frontpage",
+  "source_url": "https://liquidream.itch.io/undune2",
+  "author": "Hacker News Frontpage",
+  "published_at": "2026-05-12T15:28:36.452728+00:00",
+  "collected_at": "2026-05-12T15:28:36.452728+00:00",
+  "summary": "该项目似乎是DUNE模拟器的迭代版本，可能引入了新的并行计算或架构优化技术。它面向对系统模拟和高性能计算感兴趣的技术人员，提供更高效的仿真能力。",
+  "score": 7,
+  "tags": [
+    "simulation",
+    "open-source",
+    "parallel-computing"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T15:31:41.323858+00:00"
+}
