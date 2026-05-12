@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - run: pip install -r requirements.txt
+      - run: pip install --no-cache-dir -r requirements.txt
 
       - name: Run collection pipeline
         id: pipeline
