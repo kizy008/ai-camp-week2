@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-005",
+  "title": "Slipstream: Trajectory-Grounded Compaction Validation for Long-Horizon Agents",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.08580",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262277+00:00",
+  "collected_at": "2026-05-12T16:15:05.262277+00:00",
+  "summary": "Slipstream提出异步压缩验证方法，通过并行运行压缩器与智能体后续步骤，解决长程LLM智能体中压缩步骤的结构性验证差距，提升准确率8.8个百分点并降低延迟39.7%。",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "trajectory compaction",
+    "validation",
+    "asynchronous execution",
+    "long-horizon tasks"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982962+00:00"
+}

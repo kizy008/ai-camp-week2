@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-017",
+  "title": "Statistical Model Checking of the Keynes+Schumpeter Model: A Transient Sensitivity Analysis of a Macroeconomic ABM",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.10447",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262314+00:00",
+  "collected_at": "2026-05-12T16:15:05.262314+00:00",
+  "summary": "本文展示如何通过统计模型检验（SMC）框架MultiVeStA，对复杂的宏观经济基于主体模型（K+S模型）进行瞬态敏感性分析，无需重写模拟器。通过参数扫描和宏观/微观观测值，自动确定各配置所需的模拟努力，揭示不同参数族对模型行为的差异影响，并提高分析的可重复性和信息量。",
+  "score": 7,
+  "tags": [
+    "Agent-based models",
+    "Statistical Model Checking",
+    "Macroeconomic modeling",
+    "Sensitivity Analysis",
+    "MultiVeStA"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.983008+00:00"
+}

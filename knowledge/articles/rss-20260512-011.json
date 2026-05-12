@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-011",
+  "title": "A Cross-Layered Multi-Drone Coordination for Medical Supply Delivery during Disaster Response Management",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.09342",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262300+00:00",
+  "collected_at": "2026-05-12T16:15:05.262300+00:00",
+  "summary": "本文提出CEDA算法，基于集中式训练分布式执行的深度Q网络，联合优化多无人机在灾难医疗物资递送中的优先级感知路由、协调与能效导航。通过优先级保持公平调度策略和结构化奖励函数，在仿真和PX4 SITL验证中实现了85%以上的递送完成率和90%以上的碰撞减少，确保重症患者优先服务。",
+  "score": 8,
+  "tags": [
+    "multi-drone coordination",
+    "medical supply delivery",
+    "deep reinforcement learning",
+    "CTDE",
+    "disaster response"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982990+00:00"
+}

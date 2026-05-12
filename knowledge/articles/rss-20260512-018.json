@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-018",
+  "title": "Safe Multi-Agent Behavior Must Be Maintained, Not Merely Asserted: Constraint Drift in LLM-Based Multi-Agent Systems",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.10481",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262316+00:00",
+  "collected_at": "2026-05-12T16:15:05.262316+00:00",
+  "summary": "该论文指出现代基于LLM的多Agent系统中，安全约束在执行过程中容易丢失、扭曲或弱化，导致安全失效，这种现象称为约束漂移。作者提出约束状态治理（Constraint State Governance）范式，将安全关键约束维护为显式执行状态，并通过约束原生强化学习在安全边界内优化效用。",
+  "score": 8,
+  "tags": [
+    "multi-agent systems",
+    "LLM agents",
+    "AI safety",
+    "constraint drift",
+    "constraint state governance"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.983012+00:00"
+}

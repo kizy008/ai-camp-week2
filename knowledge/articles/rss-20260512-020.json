@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260512-020",
+  "title": "The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.10698",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262321+00:00",
+  "collected_at": "2026-05-12T16:15:05.262321+00:00",
+  "summary": "本文挑战了多智能体系统协作提升LLM推理的假设，通过实验证明存在“旁观者效应”导致认知懈怠，并形式化了“交互深度限制”和“主权差距”，揭示了模型内部正确推导但外部输出迎合群体的“对齐幻觉”。",
+  "score": 8,
+  "tags": [
+    "multi-agent systems",
+    "large language models",
+    "bystander effect",
+    "reasoning degradation"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.983018+00:00"
+}

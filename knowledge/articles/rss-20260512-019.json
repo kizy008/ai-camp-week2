@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-019",
+  "title": "Effect of Graph Gluing on Consensus in Networked Multi-Agent Systems",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.10558",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262319+00:00",
+  "collected_at": "2026-05-12T16:15:05.262319+00:00",
+  "summary": "本文研究多智能体系统中图粘合操作（桥粘合与界面粘合）对通信网络拓扑的影响，重点分析其如何改变Fiedler特征值进而影响共识收敛速率。通过建立粘合策略、代数连通性与系统性能之间的理论关系，为设计网络互联方案提供了指导。",
+  "score": 7,
+  "tags": [
+    "multi-agent systems",
+    "graph gluing",
+    "consensus",
+    "algebraic connectivity",
+    "Fiedler eigenvalue"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.983016+00:00"
+}

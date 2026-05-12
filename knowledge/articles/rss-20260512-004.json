@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-004",
+  "title": "Too Many Specialists: Emergent Inefficiencies and Bottlenecks for Multi-agent Ad-hoc Collaboration",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.08540",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262274+00:00",
+  "collected_at": "2026-05-12T16:15:05.262274+00:00",
+  "summary": "本文通过厨房环境中的多智能体协作模型，揭示了异构智能体与任务结构交互导致的系统瓶颈和专家困境，分析了团队规模与通信开销的边际效应，为设计高效多智能体协作系统提供了微观行为到宏观结果的理论洞见。",
+  "score": 7,
+  "tags": [
+    "多智能体系统",
+    "协作",
+    "涌现",
+    "瓶颈",
+    "专家困境"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982959+00:00"
+}

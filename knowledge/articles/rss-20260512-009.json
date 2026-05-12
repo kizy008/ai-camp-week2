@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-009",
+  "title": "Internal vs. External: Comparing Deliberation and Evolution for Multi-Agent Constitutional Design",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.09128",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262294+00:00",
+  "collected_at": "2026-05-12T16:15:05.262294+00:00",
+  "summary": "本文首次对多智能体系统中的内部审议与外部进化两种宪法设计方法进行了受控比较。在协调网格世界、公共物品博弈和双边交易市场三种环境中，进化方法在集体行动场景下显著优于审议方法，但审议从未提出惩罚机制。研究发现进化优势在激励变化时可能反转，揭示了外部优化与内部自治之间的权衡。",
+  "score": 7,
+  "tags": [
+    "multi-agent systems",
+    "constitutional design",
+    "deliberation",
+    "evolution",
+    "social dilemmas"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982985+00:00"
+}

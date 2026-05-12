@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260512-008",
+  "title": "Robust Multi-Agent LLMs under Byzantine Faults",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.09076",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262289+00:00",
+  "collected_at": "2026-05-12T16:15:05.262289+00:00",
+  "summary": "本文针对LLM多智能体系统在拜占庭故障下的鲁棒性问题，提出了Self-Anchored Consensus (SAC)去中心化协议，通过迭代过滤和细化实现一致性，实验表明能有效抑制恶意影响并提升性能。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "multi-agent systems",
+    "Byzantine fault tolerance",
+    "decentralized consensus"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982982+00:00"
+}

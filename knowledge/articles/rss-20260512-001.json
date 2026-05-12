@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260512-001",
+  "title": "Designing Intelligent Enterprise Agents: A Capability-Aligned Multi-Agent Architecture",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.08258",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262238+00:00",
+  "collected_at": "2026-05-12T16:15:05.262238+00:00",
+  "summary": "本文提出了CEAD（Capability-Aligned Enterprise Agent Design）参考架构，该架构基于服务导向架构（SOA）原则但明确反对服务即代理，强调设计质量（能力边界、自主权分配等）作为企业首要关注点，而非仅依赖治理。通过10,000个企业任务评估五种架构，CEAD实现了70.6%的安全成功率，显著优于其他架构，论证了设计质量在智能代理系统中的核心作用。",
+  "score": 7,
+  "tags": [
+    "multi-agent systems",
+    "LLM agents",
+    "enterprise architecture"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982941+00:00"
+}

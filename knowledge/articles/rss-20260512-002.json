@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260512-002",
+  "title": "Insider Attacks in Multi-Agent LLM Consensus Systems",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.08268",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-12T16:15:05.262268+00:00",
+  "collected_at": "2026-05-12T16:15:05.262268+00:00",
+  "summary": "本文研究了多智能体LLM共识系统中的内部攻击问题，提出基于世界模型的强化学习框架训练攻击者，有效降低良性共识率并延长分歧，优于直接恶意提示基线。",
+  "score": 8,
+  "tags": [
+    "多智能体系统",
+    "LLM安全",
+    "共识机制",
+    "强化学习"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-12T16:17:08.982952+00:00"
+}
