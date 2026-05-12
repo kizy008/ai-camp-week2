@@ -2,7 +2,7 @@
 AI 知识库四步流水线：采集 → 分析 → 整理 → 保存
 
 运行方式：
-    python pipeline/pipeline.py --sources github,rss --limit 10
+    python pipeline/pipeline.py --sources github,rss --limit 20
     python pipeline/pipeline.py --sources github --limit 5 --dry-run
     python pipeline/pipeline.py --sources github --step 1 --step 2
 """
@@ -435,7 +435,7 @@ def step_save(items: list[dict[str, Any]], dry_run: bool = False) -> list[Path]:
 
 def run_pipeline(
     sources: list[str],
-    limit: int = 10,
+    limit: int = 20,
     dry_run: bool = False,
     steps: list[int] | None = None,
 ) -> dict[str, Any]:
@@ -508,7 +508,7 @@ def main() -> None:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-    python pipeline/pipeline.py --sources github,rss --limit 10
+    python pipeline/pipeline.py --sources github,rss --limit 20
     python pipeline/pipeline.py --sources github --limit 5 --dry-run
     python pipeline/pipeline.py --sources rss --limit 10
         """,
@@ -518,8 +518,8 @@ def main() -> None:
         help="数据源，逗号分隔（默认: github,rss）",
     )
     parser.add_argument(
-        "--limit", type=int, default=10,
-        help="每个源的最大采集数量（默认: 10）",
+        "--limit", type=int, default=20,
+        help="每个源的最大采集数量（默认: 20）",
     )
     parser.add_argument(
         "--dry-run", action="store_true",
