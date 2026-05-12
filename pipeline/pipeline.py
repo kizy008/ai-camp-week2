@@ -54,7 +54,7 @@ def collect_github(limit: int = 10) -> list[dict[str, Any]]:
     if token:
         headers["Authorization"] = f"token {token}"
 
-    query = "ai OR llm OR agent OR deep learning"
+    query = "topic:ai OR topic:llm OR topic:machine-learning OR topic:deep-learning OR topic:artificial-intelligence OR topic:nlp OR topic:computer-vision OR topic:generative-ai OR topic:large-language-model stars:>50"
     url = "https://api.github.com/search/repositories"
     params = {
         "q": query,
@@ -119,15 +119,18 @@ def collect_rss(limit: int = 10) -> list[dict[str, Any]]:
             resp.raise_for_status()
             feed_text = resp.text
 
-            # 简易 RSS 解析：提取 <item> 中的 <title> 和 <link>
+            # 简易 RSS 解析：提取 <item> 中的 <title>, <link>, <description>
             items = re.findall(
-                r"<item[^>]*>.*?<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>.*?"
-                r"<link[^>]*>(.*?)</link>.*?</item>",
+                r"<item[^>]*>.*?"
+                r"<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>.*?"
+                r"<link[^>]*>(.*?)</link>.*?"
+                r"<description[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>.*?"
+                r"</item>",
                 feed_text,
                 re.DOTALL,
             )
 
-            for title, link in items:
+            for title, link, description in items:
                 if count >= limit:
                     break
                 title = title.strip()
@@ -144,7 +147,7 @@ def collect_rss(limit: int = 10) -> list[dict[str, Any]]:
                     "source_url": link,
                     "author": source.get("name", "unknown"),
                     "published_at": now,
-                    "raw_description": "",
+                    "raw_description": description.strip() if description else "",
                     "category": source.get("category", "general"),
                     "collected_at": now,
                 })
