@@ -19,7 +19,7 @@ REQUIRED_FIELDS: dict[str, type] = {
 }
 
 VALID_STATUSES = frozenset({"draft", "review", "published", "archived"})
-VALID_AUDIENCES = frozenset({"beginner", "intermediate", "advanced"})
+VALID_AUDIENCES = frozenset({"beginner", "intermediate", "advanced", "general"})
 
 ID_PATTERN = re.compile(r"^[a-z0-9_-]+-(\d{8})-(\d{3})$", re.IGNORECASE)
 URL_PATTERN = re.compile(r"^https?://")
