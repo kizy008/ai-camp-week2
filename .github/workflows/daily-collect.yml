@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - run: pip install --no-cache-dir -r requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Run collection pipeline
         id: pipeline
@@ -32,8 +32,13 @@ jobs:
 
       - name: Validate articles
         run: |
-          python hooks/validate_json.py
-          python hooks/check_quality.py
+          ARTICLES=$(ls knowledge/articles/*.json 2>/dev/null || true)
+          if [ -n "$ARTICLES" ]; then
+            python hooks/validate_json.py $ARTICLES
+            python hooks/check_quality.py $ARTICLES
+          else
+            echo "No article JSON files to validate."
+          fi
 
       - name: Commit and push if changes
         run: |
