@@ -25,7 +25,14 @@ from dotenv import load_dotenv
 
 # 添加项目根目录到 path，以便导入 model_client
 sys.path.insert(0, str(Path(__file__).parent))
-from model_client import create_provider, chat_with_retry, estimate_cost, LLMResponse
+from model_client import (
+    create_provider,
+    chat_with_retry,
+    estimate_cost,
+    get_tracker,
+    LLMResponse,
+)
+
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -188,6 +195,12 @@ ANALYZE_PROMPT_TEMPLATE = """请分析以下 AI 技术内容，返回 JSON 格�
 - 来源：{source}
 - 描述：{description}
 
+字段约束：
+- "audience" 必须从以下值中选择其一：beginner, intermediate, advanced, general
+- "score" 必须是 1-10 之间的整数
+- "tags" 至少包含 1 个标签
+- "summary" 至少 20 个字符
+
 请返回以下格式的 JSON（不要包含 markdown 代码块标记）：
 {{
   "summary": "2-3 句话的技术摘要，说明核心内容和价值",
@@ -196,6 +209,63 @@ ANALYZE_PROMPT_TEMPLATE = """请分析以下 AI 技术内容，返回 JSON 格�
   "audience": "intermediate"
 }}
 """
+
+
+def _sanitize_analysis(
+    analysis: dict[str, Any],
+    item: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """校验并修正 LLM 分析结果中各字段的合法性。
+
+    Args:
+        analysis: LLM 返回的分析结果 dict。
+        item: 原始采集数据，用于 summary 回退。
+
+    Returns:
+        校验修正后的安全 dict。
+    """
+    safe = dict(analysis)
+
+    # audience
+    valid_audiences = {"beginner", "intermediate", "advanced", "general"}
+    audience = safe.get("audience", "intermediate")
+    if audience not in valid_audiences:
+        logger.warning("audience '%s' 无效，回退为 'intermediate'", audience)
+        safe["audience"] = "intermediate"
+
+    # score
+    score = safe.get("score", 5)
+    if not isinstance(score, (int, float)) or not (1 <= score <= 10):
+        logger.warning("score '%s' 无效，回退为 5", score)
+        safe["score"] = 5
+
+    # summary
+    summary = safe.get("summary", "")
+    if not isinstance(summary, str) or len(summary) < 20:
+        fallback = (item or {}).get("raw_description", "")
+        logger.warning("summary 过短（%d 字符），使用 raw_description 回退", len(summary))
+        new_summary = (fallback or "暂无摘要")[:200]
+        # 如果回退后仍然不够长，补到 20 字符
+        if len(new_summary) < 20:
+            new_summary = new_summary.ljust(20, "。")
+        safe["summary"] = new_summary
+
+    # tags
+    tags = safe.get("tags", [])
+    if not isinstance(tags, list) or len(tags) < 1:
+        logger.warning("tags 无效，回退为 ['llm']")
+        safe["tags"] = ["llm"]
+    else:
+        safe["tags"] = [t for t in tags if isinstance(t, str)][:5]
+
+    # status
+    valid_statuses = {"draft", "review", "published", "archived"}
+    status = safe.get("status", "review")
+    if status not in valid_statuses:
+        logger.warning("status '%s' 无效，回退为 'draft'", status)
+        safe["status"] = "draft"
+
+    return safe
 
 
 def step_analyze(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -243,6 +313,9 @@ def step_analyze(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             content = re.sub(r"^```json\s*", "", content)
             content = re.sub(r"\s*```$", "", content)
             analysis = json.loads(content)
+
+            # 校验 LLM 返回的字段合法性
+            analysis = _sanitize_analysis(analysis, item)
 
             # 合并原始数据和分析结果
             enriched: dict[str, Any] = {**item, **analysis}
@@ -418,6 +491,8 @@ def run_pipeline(
     print(f"# 采集: {stats['collected']} → 分析: {stats['analyzed']} "
           f"→ 整理: {stats['organized']} → 保存: {stats['saved']}")
     print(f"{'#'*60}\n")
+
+    get_tracker().report()
     return stats
 
 

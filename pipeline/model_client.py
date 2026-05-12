@@ -271,7 +271,9 @@ def chat_with_retry(
     last_exc = None
     for attempt in range(1, max_retries + 1):
         try:
-            return provider.chat(messages, **kwargs)
+            resp = provider.chat(messages, **kwargs)
+            _tracker.record(resp.usage, resp.provider)
+            return resp
         except (httpx.HTTPStatusError, httpx.RequestError) as exc:
             last_exc = exc
             logger.warning(
@@ -341,6 +343,112 @@ def estimate_tokens(text: str) -> int:
         估算的 Token 数量。
     """
     return len(text) // 4
+
+
+# ---------------------------------------------------------------------------
+# CostTracker：成本追踪
+# ---------------------------------------------------------------------------
+
+
+class CostTracker:
+    """追踪 LLM API 调用的 Token 消耗与成本。
+
+    按提供商维度记录每次调用的 Token 用量，并基于内置价格表
+    估算总花费（人民币元）。
+
+    价格参考（元/百万 tokens）:
+        - deepseek: 输入 1, 输出 2
+        - qwen: 输入 4, 输出 12
+        - openai (gpt-4o-mini): 输入 150, 输出 600
+    """
+
+    PRICES: dict[str, tuple[float, float]] = {
+        "deepseek": (1.0, 2.0),
+        "qwen": (4.0, 12.0),
+        "openai": (150.0, 600.0),
+    }
+
+    def __init__(self) -> None:
+        self._records: list[tuple[Usage, str]] = []
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """记录一次 API 调用的 Token 用量。
+
+        Args:
+            usage: Token 用量（prompt_tokens, completion_tokens,
+                   total_tokens）。
+            provider: 提供商名称（deepseek / qwen / openai）。
+        """
+        self._records.append((usage, provider))
+
+    def estimated_cost(self, provider: Optional[str] = None) -> float:
+        """返回估算总花费（人民币元）。
+
+        Args:
+            provider: 若指定则仅计算该提供商，否则计算全部。
+
+        Returns:
+            总花费（元），保留 6 位小数。
+        """
+        records = self._records
+        if provider is not None:
+            records = [(u, p) for u, p in records if p == provider]
+        total = 0.0
+        for usage, prov in records:
+            input_price, output_price = self.PRICES.get(prov, (0.0, 0.0))
+            total += (
+                usage.prompt_tokens / 1_000_000 * input_price
+                + usage.completion_tokens / 1_000_000 * output_price
+            )
+        return round(total, 6)
+
+    def report(self, provider: Optional[str] = None) -> None:
+        """打印成本报告到日志。
+
+        Args:
+            provider: 若指定则仅打印该提供商，否则打印全部。
+        """
+        if provider:
+            providers = [provider]
+        else:
+            providers = sorted({p for _, p in self._records})
+
+        grand_total = 0.0
+        lines: list[str] = []
+        for prov in providers:
+            cost = self.estimated_cost(prov)
+            if cost == 0:
+                continue
+            count = sum(1 for _, p in self._records if p == prov)
+            total_tokens = sum(
+                u.total_tokens for u, p in self._records if p == prov
+            )
+            lines.append(
+                f"  {prov:>10s}: ¥{cost:<8.4f}  "
+                f"({count} calls, {total_tokens} tokens)"
+            )
+            grand_total += cost
+
+        if not lines:
+            logger.info("CostTracker: no records to report.")
+            return
+
+        msg = "CostTracker report:\n" + "\n".join(lines)
+        msg += f"\n  {'Total':>10s}: ¥{grand_total:<8.4f}"
+        logger.info(msg)
+
+
+# 全局单例，供 Pipeline 在结束时调 report()
+_tracker: CostTracker = CostTracker()
+
+
+def get_tracker() -> CostTracker:
+    """获取全局 CostTracker 实例。
+
+    Returns:
+        全局 CostTracker 单例。
+    """
+    return _tracker
 
 
 # ---------------------------------------------------------------------------
