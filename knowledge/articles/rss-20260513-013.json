@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-013",
+  "title": "Digital Identity for Agentic Systems: Toward a Portable Authorization Standard for Autonomous Agents",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11487",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737528+00:00",
+  "collected_at": "2026-05-13T04:45:44.737528+00:00",
+  "summary": "本文针对企业AI从辅助转向自主代理的趋势，分析了现有身份与访问模型在跨组织授权方面的结构性缺陷，并提出了一种基于发行者授权有效载荷、类型约束代数等要素的便携式授权模型，以解决代理间信任边界的授权一致性、可审计性和可撤销性问题。该模型通过分离凭证容器、授权语义和执行引擎，兼容JWT、可验证凭证等多种标准，为自主代理的跨域协作提供了安全基础。",
+  "score": 8,
+  "tags": [
+    "自主代理",
+    "授权标准",
+    "AI安全",
+    "数字身份"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574261+00:00"
+}

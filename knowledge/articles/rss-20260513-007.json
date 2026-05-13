@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-007",
+  "title": "SkillGen: Verified Inference-Time Agent Skill Synthesis",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.10999",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737505+00:00",
+  "collected_at": "2026-05-13T04:45:44.737505+00:00",
+  "summary": "SkillGen提出一个多智能体框架，从成功和失败轨迹中对比归纳出可复用的技能，并通过干预验证净效果，显著提升LLM agent的零样本性能且技能可跨模型迁移。",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "skill synthesis",
+    "multi-agent",
+    "verification",
+    "contrastive induction"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574243+00:00"
+}

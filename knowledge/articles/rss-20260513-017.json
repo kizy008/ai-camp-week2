@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260513-017",
+  "title": "AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11732",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737537+00:00",
+  "collected_at": "2026-05-13T04:45:44.737537+00:00",
+  "summary": "AgentDisCo 提出一种解耦协作的智能体架构，将深度研究任务建模为信息探索与利用的对抗优化问题，通过批评智能体和生成智能体迭代优化大纲。该框架还引入 GALA 基准和端到端产品，实现个性化深度研究推荐，性能与领先闭源系统相当。",
+  "score": 8,
+  "tags": [
+    "multi-agent",
+    "deep research",
+    "adversarial optimization"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574273+00:00"
+}

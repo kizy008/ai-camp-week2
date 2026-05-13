@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-018",
+  "title": "Adaptive TD-Lambda for Cooperative Multi-agent Reinforcement Learning",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11880",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737539+00:00",
+  "collected_at": "2026-05-13T04:45:44.737539+00:00",
+  "summary": "提出一种自适应TD-lambda方法用于多智能体强化学习，通过参数化无似然密度比估计器计算当前策略的平稳分布，进而为状态动作对分配动态lambda值，有效解决联合动作空间大和策略分布计算困难的问题。在QMIX和MAPPO上验证，性能优于静态lambda基线方法。",
+  "score": 8,
+  "tags": [
+    "多智能体强化学习",
+    "TD-lambda",
+    "自适应",
+    "密度比估计",
+    "值函数估计"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574277+00:00"
+}

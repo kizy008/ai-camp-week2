@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-005",
+  "title": "GeomHerd: A Forward-looking Herding Quantification via Ricci Flow Geometry on Agent Interactive Simulations",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11645",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737500+00:00",
+  "collected_at": "2026-05-13T04:45:44.737500+00:00",
+  "summary": "GeomHerd 提出一种基于 Ricci 流几何的前瞻性群体行为量化方法，通过分析智能体交互图的离散曲率来提前检测金融市场的群体行为。该方法在连续自旋模型中比传统指标提前数百步预警，并跨领域适用于 Vicsek 模型，显著提升风险预测能力。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "金融",
+    "图论",
+    "多智能体模拟",
+    "风险量化"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574236+00:00"
+}

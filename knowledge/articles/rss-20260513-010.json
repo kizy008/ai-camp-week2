@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-010",
+  "title": "The Price of Proportional Representation in Temporal Voting",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11157",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737522+00:00",
+  "collected_at": "2026-05-13T04:45:44.737522+00:00",
+  "summary": "研究在时间投票模型中引入比例代表制（如JR及其变体）所需付出的社会福利代价，量化了最坏情况下的福利损失比率。发现JR的福利损失随轮次增加渐近消失，而更强公理则始终存在冲突；同时证明了相关福利最大化问题是NP-complete和APX-hard，并提供了固定参数算法。",
+  "score": 8,
+  "tags": [
+    "temporal voting",
+    "proportional representation",
+    "social welfare",
+    "justified representation",
+    "computational complexity"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574252+00:00"
+}

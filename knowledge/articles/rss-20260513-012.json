@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-012",
+  "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11225",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737526+00:00",
+  "collected_at": "2026-05-13T04:45:44.737526+00:00",
+  "summary": "该论文提出了PIVOT框架，通过将轨迹视为可优化对象并利用环境交互进行迭代改进，解决了LLM agent中计划与执行之间的不一致问题。该方法在DeepPlanning和GAIA基准上实现了最佳性能，且计算效率显著优于现有方法。",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "planning",
+    "trajectory refinement",
+    "self-supervised learning",
+    "execution gap"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574258+00:00"
+}

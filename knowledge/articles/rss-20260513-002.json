@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-002",
+  "title": "Information and Contract Design for Repeated Interactions between Agents with Misaligned Incentives",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11294",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737488+00:00",
+  "collected_at": "2026-05-13T04:45:44.737488+00:00",
+  "summary": "本文研究多智能体系统中信息不对称与激励不一致问题，分析发送者-接收者博弈中发送者学习最优沟通策略的特性，并引入线性合同机制以改善双方收益。实验表明该机制能提升发送者奖励，但加剧了不公平性，引发关于公平与合同设计的讨论。",
+  "score": 7,
+  "tags": [
+    "多智能体系统",
+    "信息设计",
+    "合同理论",
+    "激励对齐"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574219+00:00"
+}

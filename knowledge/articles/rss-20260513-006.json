@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-006",
+  "title": "Events as Triggers for Behavioral Diversity in Multi-Agent Reinforcement Learning",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12388",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737502+00:00",
+  "collected_at": "2026-05-13T04:45:44.737502+00:00",
+  "summary": "提出基于事件触发的多智能体强化学习框架，通过解耦智能体身份与行为，利用神经流形多样性度量和基于事件的超网络生成LoRA模块，实现按需行为多样化，理论保证不影响奖励最大化，实验表明优于现有方法并具备零样本泛化能力。",
+  "score": 8,
+  "tags": [
+    "Multi-Agent Reinforcement Learning",
+    "event-triggered",
+    "behavioral diversity",
+    "LoRA",
+    "neural manifold"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574239+00:00"
+}

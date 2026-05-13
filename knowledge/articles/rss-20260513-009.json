@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-009",
+  "title": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11117",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737519+00:00",
+  "collected_at": "2026-05-13T04:45:44.737519+00:00",
+  "summary": "提出GRAFT-ATHENA框架，通过图分解为因子树将决策空间从指数降至线性，并利用经验积累实现自主学习新方法，在物理信息机器学习和工程问题中表现优异。",
+  "score": 8,
+  "tags": [
+    "AI agents",
+    "scientific discovery",
+    "numerical algorithms",
+    "self-improving systems",
+    "PINN"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574249+00:00"
+}

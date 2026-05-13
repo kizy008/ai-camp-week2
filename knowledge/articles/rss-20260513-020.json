@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-020",
+  "title": "Intermediate Artifacts as First-Class Citizens: A Data Model for Durable Intermediate Artifacts in Agentic Systems",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12087",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737544+00:00",
+  "collected_at": "2026-05-13T04:45:44.737544+00:00",
+  "summary": "该论文提出在AI代理系统中将中间工件作为一等公民，并设计了一个系统级数据模型，支持类型化、版本化、可寻址和依赖感知的持久化中间状态。通过区分中间工件与最终输出及思维链，强调维护中间状态的质量以提升可检查性、可修订性和可维护性。",
+  "score": 8,
+  "tags": [
+    "agentic systems",
+    "data model",
+    "intermediate artifacts",
+    "AI engineering"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574291+00:00"
+}

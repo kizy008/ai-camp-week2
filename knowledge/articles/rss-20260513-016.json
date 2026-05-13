@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-016",
+  "title": "A Research Agenda on Agents and Software Engineering: Outcomes from the Rio A2SE Seminar",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11720",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737535+00:00",
+  "collected_at": "2026-05-13T04:45:44.737535+00:00",
+  "summary": "本文基于里约热内卢A2SE研讨会的成果，提出了一项关于代理AI与软件工程交叉领域的研究议程。18位专家通过结构化讨论确定了六个主题领域：治理、软件工程代理、软件架构代理、质量与评估、可持续性和代码，并规划了短期和长期研究方向。该议程为软件工程社区提供了协调未来研究的结构化基础。",
+  "score": 7,
+  "tags": [
+    "AI Agents",
+    "Software Engineering",
+    "Research Agenda",
+    "Agentic AI"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574270+00:00"
+}

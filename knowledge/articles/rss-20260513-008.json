@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-008",
+  "title": "An Executable Benchmarking Suite for Tool-Using Agents",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11030",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737511+00:00",
+  "collected_at": "2026-05-13T04:45:44.737511+00:00",
+  "summary": "本文介绍了一个可执行的基准测试套件，用于评估工具使用智能体，通过明确的证据接纳合同和门控机制，标准化工作负载、驱动器和证据，确保评估的可重复性和审计性。套件整合了WebArena Verified、SWE-Gym和MiniWoB++，并提供了完整的报告管道，对智能体系统的性能进行可靠比较。",
+  "score": 8,
+  "tags": [
+    "benchmark",
+    "tool-using agents",
+    "evaluation",
+    "reproducibility"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574246+00:00"
+}

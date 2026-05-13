@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-014",
+  "title": "Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks: Joint Optimization of Flight and Connectivity",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11509",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737531+00:00",
+  "collected_at": "2026-05-13T04:45:44.737531+00:00",
+  "summary": "本文提出一种分层LLM驱动的控制框架，用于HAPS辅助的无人机网络，联合优化飞行与连接。通过全局LLM规划和局部混合控制，在3D空中高速公路场景中实现碰撞避免、交通效率和通信可靠性，数值结果表明运输效率提升14%、吞吐量提升25%、碰撞率降低23%。",
+  "score": 7,
+  "tags": [
+    "UAV",
+    "LLM",
+    "reinforcement learning",
+    "multi-agent systems",
+    "communication networks"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574264+00:00"
+}

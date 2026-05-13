@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-001",
+  "title": "Control Charts for Multi-agent Systems",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11135",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737445+00:00",
+  "collected_at": "2026-05-13T04:45:44.737445+00:00",
+  "summary": "本文提出将自适应控制图（adaptive control charts）扩展到多智能体系统，以实现对开放式环境中多智能体系统动态的自动监控。通过模拟实验，证明了自适应控制图对于能够从环境中学习的多智能体系统的监控是必要的，同时从理论和实验上揭示了其易受缓慢叛变智能体攻击的弱点。该结果展示了多智能体系统控制中的基本权衡：系统内智能体要么无法学习，要么系统易受对手攻击。",
+  "score": 7,
+  "tags": [
+    "multi-agent systems",
+    "control charts",
+    "adversarial agents",
+    "adaptive control",
+    "monitoring"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574207+00:00"
+}

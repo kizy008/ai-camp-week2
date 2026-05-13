@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-019",
+  "title": "SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12015",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737541+00:00",
+  "collected_at": "2026-05-13T04:45:44.737541+00:00",
+  "summary": "SkillSafetyBench提出了一种新的基准测试，用于评估大型语言模型代理在可复用技能接口下的安全漏洞，包含155个对抗性案例覆盖6个风险领域。实验发现，即使输入请求安全，本地化的技能材料或工件攻击也能持续诱发不安全行为，且失败模式因领域和攻击方法而异。该工作强调代理安全不仅依赖模型对齐，还涉及技能解释、工作流信任和可执行环境交互。",
+  "score": 7,
+  "tags": [
+    "AI safety",
+    "benchmark",
+    "large language model agents",
+    "attack surface"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574288+00:00"
+}

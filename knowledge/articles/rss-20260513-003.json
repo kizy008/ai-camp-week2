@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-003",
+  "title": "Predictive Maps of Multi-Agent Reasoning: A Successor-Representation Spectrum for LLM Communication Topologies",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11453",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737494+00:00",
+  "collected_at": "2026-05-13T04:45:44.737494+00:00",
+  "summary": "该论文提出基于后继表示谱分析的方法，用于预测多智能体LLM系统不同通信拓扑（链、星、网格）的故障模式（漂移、共识、鲁棒性），实验表明条件数是鲁棒性的完美排序预测器，而谱半径与累计误差呈完美负相关。",
+  "score": 8,
+  "tags": [
+    "multi-agent",
+    "LLM",
+    "communication topology",
+    "spectral analysis",
+    "successor representation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574227+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260513-011",
+  "title": "Multi-Agent System Identification with Nonlinear Sheaf Diffusion",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11204",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737524+00:00",
+  "collected_at": "2026-05-13T04:45:44.737524+00:00",
+  "summary": "本文提出非线性sheaf扩散框架用于多智能体系统识别，揭示局部交互定律恢复的拓扑障碍由sheaf上同调刻画；在障碍非平凡时，数据依赖信息矩阵可确保参数化类中的唯一恢复。",
+  "score": 7,
+  "tags": [
+    "multi-agent systems",
+    "system identification",
+    "sheaf theory",
+    "topology",
+    "nonlinear diffusion"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574254+00:00"
+}

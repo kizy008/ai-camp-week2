@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-015",
+  "title": "Shaping Zero-Shot Coordination via State Blocking",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11688",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737533+00:00",
+  "collected_at": "2026-05-13T04:45:44.737533+00:00",
+  "summary": "本文提出状态阻塞协调（SBC）框架，通过生成虚拟环境中的次优伙伴策略来提升零样本协调的泛化能力，在多个基准上表现优异，尤其能有效泛化至人类伙伴。",
+  "score": 7,
+  "tags": [
+    "Zero-Shot Coordination",
+    "Multi-Agent Systems",
+    "State Blocking",
+    "Human-AI Collaboration"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574267+00:00"
+}

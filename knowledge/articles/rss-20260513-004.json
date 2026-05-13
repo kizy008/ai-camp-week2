@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260513-004",
+  "title": "Distance-Constrained Unlabeled Multi-Agent Pathfinding",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.11503",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-13T04:45:44.737498+00:00",
+  "collected_at": "2026-05-13T04:45:44.737498+00:00",
+  "summary": "本文研究了带有距离约束的无标签多智能体路径规划问题，要求智能体间始终保持至少 r+1 的距离，该约束使可行性判定变为PSPACE完全问题。作者提出了基于约简的优化算法和基于配置生成器的搜索两种方法，实验证明能处理数百个智能体的规模。",
+  "score": 7,
+  "tags": [
+    "multi-agent pathfinding",
+    "distance constraint",
+    "PSPACE-complete",
+    "graph algorithm"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-13T04:47:04.574232+00:00"
+}
