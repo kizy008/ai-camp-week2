@@ -23,7 +23,7 @@ jobs:
 
       - name: Run collection pipeline
         id: pipeline
-        run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
+        run: python pipeline/pipeline.py --sources github,rss --limit 20
         env:
           LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
