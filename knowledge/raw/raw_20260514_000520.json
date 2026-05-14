@@ -1,0 +1,222 @@
+[
+  {
+    "id": "rss-20260514-001",
+    "title": "Control Charts for Multi-agent Systems",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11135",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273334+00:00",
+    "raw_description": "arXiv:2605.11135v1 Announce Type: new \nAbstract: Generative agents have proven to be powerful assistants in a wide variety of contexts. Given this success, users are now deploying agents with minimal restrictions in open ended, multi-agent environments. Current methods for monitoring the dynamics of open-ended multi-agent systems are limited to qualitative inspection. In this paper, we extend the process-theoretic notion of adaptive control charts to multi-agent systems to enable automated monitoring. Using simulation, we demonstrate that adaptive control charts are necessary for monitoring multi-agent systems that can learn from their environment. We further demonstrate, both empirically and theoretically, that adaptive control charts are susceptible to adversarial agents that defect sufficiently slowly. These results illustrate a fundamental tradeoff in multi-agent system control: either agents in a system cannot learn or the system is susceptible to adversaries.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273334+00:00"
+  },
+  {
+    "id": "rss-20260514-002",
+    "title": "Information and Contract Design for Repeated Interactions between Agents with Misaligned Incentives",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11294",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273356+00:00",
+    "raw_description": "arXiv:2605.11294v1 Announce Type: new \nAbstract: We study the consequences of information asymmetries and misaligned incentives in settings with multiple independent agents. We model an interaction between a Sender, who holds vital private information but cannot act, and a Receiver, who must make decisions but is dependent on the Sender's information. We find that the Sender learns an optimal communication strategy that the Receiver reliably acts on. Importantly, this strategy is highly sensitive to the degree of conflict in the agents' rewards and the amount of environmental information the Receiver can already observe. We introduce a mechanism allowing the agents to form linear contracts, where a price is established for the information. We demonstrate that the Sender learns to use these payment structures to improve its rewards, though this comes at a cost of \"fairness\" between agents as the Sender is able to extract much of the Receiver's surplus. This raises questions about fairness, contract design, and learning in the context of multi-agent systems.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273356+00:00"
+  },
+  {
+    "id": "rss-20260514-003",
+    "title": "Predictive Maps of Multi-Agent Reasoning: A Successor-Representation Spectrum for LLM Communication Topologies",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11453",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273361+00:00",
+    "raw_description": "arXiv:2605.11453v1 Announce Type: new \nAbstract: Practitioners deploying multi-agent large language model (LLM) systems must currently choose between communication topologies such as chain, star, mesh, and richer variants without any pre-inference diagnostic for which topology will amplify drift, converge to consensus, or remain robust under perturbation. Existing evaluation answers these questions only post hoc and only for the task measured. We introduce a structural diagnostic for multi-agent LLM communication graphs based on the successor representation $M = (I - \\gamma P)^{-1}$ of the row-stochastic communication operator, and we connect three of its spectral quantities, the spectral radius $\\rho(M)$, the spectral gap $\\Delta(M)$, and the condition number $\\kappa(M)$, to three distinct failure modes. We derive closed-form spectra for the chain, star, and mesh under row-stochastic normalization, and validate the predictions on a 12-step structured state-tracking task with Qwen2.5-7B-Instruct over 100 independent trials. The condition number is a perfect rank-order predictor of empirical perturbation robustness ($r_s = 1.0$); the spectral gap partially predicts consensus dynamics ($r_s = 0.5$); and the spectral radius is perfectly \\emph{inverted} with respect to cumulative error ($r_s = -1.0$). We trace this inversion to a regime in which linear spectra are blind to non-contracting bias drift, and we propose an affine-noise extension of the predictive map that recovers the empirical ordering. We read this as a first step toward representational, drift-aware structural diagnostics for multi-agent LLM systems, sitting alongside classical spectral and consensus theory.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273361+00:00"
+  },
+  {
+    "id": "rss-20260514-004",
+    "title": "Distance-Constrained Unlabeled Multi-Agent Pathfinding",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11503",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273364+00:00",
+    "raw_description": "arXiv:2605.11503v1 Announce Type: new \nAbstract: We study a graph pathfinding problem Distance-$r$ Independent Unlabeled Multi-Agent Pathfinding, finding a set of collision-free paths between two sets where agents must stay at pairwise distance at least $r+1$ at all times. This additional constraint, generalizing collision modeling for classical MAPF, targets aspects of real-world multi-agent coordination. This additional distance constraint makes feasibility (i.e., whether a solution exists) PSPACE-complete, in contrast to standard (unlabeled) MAPF, where it can be decided in polynomial time. We address the challenge via two complementary approaches: (i) reduction-based optimal algorithms with a feasibility-preserving compression procedure, and (ii) a configuration generator-based search. Despite the hardness, empirical results show that our algorithm can handle hundreds of agents in a practical timeframe.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273364+00:00"
+  },
+  {
+    "id": "rss-20260514-005",
+    "title": "GeomHerd: A Forward-looking Herding Quantification via Ricci Flow Geometry on Agent Interactive Simulations",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11645",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273368+00:00",
+    "raw_description": "arXiv:2605.11645v1 Announce Type: new \nAbstract: Herding -- where agents align their behaviors and act collectively -- is a central driver of market fragility and systemic risk. Existing approaches to quantify herding rely on price-correlation statistics, which inherently lag because they only detect coordination after it has already moved realised returns. We propose GeomHerd, a forward-looking geometric framework that bypasses this observability lag by quantifying coordination directly on upstream agent-interaction graphs. To generate these graphs, we treat a heterogeneous LLM-driven multi-agent simulator -- each financial trader instantiated by a persona-conditioned LLM call -- as a forecastable world, and evaluate the geometric pipeline on the Cividino--Sornette continuous-spin agent-based substrate as our headline financial testbed. By tracking the discrete Ollivier--Ricci curvature of these action graphs, GeomHerd captures the structural topology of emerging coordination. Theoretically, we establish a mean-field bridge mapping our graph-theoretic metric to CSAD, the classical macroscopic herding statistic, linking GeomHerd to downstream price-dispersion measurement. Empirically, GeomHerd anticipates herding long before aggregate market baselines: on the continuous-spin substrate, our primary detector fires a median of 272 steps before order-parameter onset; a contagion detector ($\\beta_{-}$) recalls 65% of critical trajectories 318 steps early; and on co-firing trajectories the agent-graph signal precedes price-correlation-graph baselines by 40 steps. As a complementary indicator, the effective vocabulary of agent actions contracts during cascades. The geometric signature transfers out-of-domain to the Vicsek self-driven-particle model, and a curvature-conditioned forecasting head reduces cascade-window log-return MAE over detector-conditioned and price-only baselines.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273368+00:00"
+  },
+  {
+    "id": "rss-20260514-006",
+    "title": "Events as Triggers for Behavioral Diversity in Multi-Agent Reinforcement Learning",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.12388",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273370+00:00",
+    "raw_description": "arXiv:2605.12388v1 Announce Type: new \nAbstract: Effective multi-agent cooperation requires agents to adopt diverse behaviors as task conditions evolve-and to do so at the right moment. Yet, current Multi-Agent Reinforcement Learning (MARL) frameworks that facilitate this diversity are still limited by the fact that they bind fixed behaviors to fixed agent identities. Consequently, they are ill-equipped for tasks where agents need to take on different roles at very specific moments in time. We argue that, to define these behavioral transitions, the missing ingredient is events. Events are changes in the state of the system that induce qualitative changes in the task. Based on this view, we introduce a framework that decouples agent identity from behavior, capturing a continuous manifold from which agents instantiate their behaviors in response to events. This framework is based on two elements. First, to build an expressive behavior manifold, we introduce Neural Manifold Diversity (NMD), a formal distance metric that remains well-defined when behaviors are transient and agent-agnostic. Second, we use an event-based hypernetwork that generates Low-Rank Adaptation (LoRA) modules over a shared team policy, enabling on-the-fly agent-policy reconfiguration in response to events. We prove that this construction ensures that diversity does not interfere with reward maximization by design. Empirical results demonstrate that our framework outperforms established baselines across benchmarks while exhibiting zero-shot generalization, and being the only method that solves tasks requiring sequential behavior reassignment.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273370+00:00"
+  },
+  {
+    "id": "rss-20260514-007",
+    "title": "SkillGen: Verified Inference-Time Agent Skill Synthesis",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.10999",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273375+00:00",
+    "raw_description": "arXiv:2605.10999v1 Announce Type: cross \nAbstract: Skills are a promising way to improve LLM agent capabilities without retraining, while keeping the added procedure reusable and controllable. However, high-quality skills are still largely written by hand. We introduce SkillGen, a multi-agent framework that synthesizes a single auditable skill from trajectories generated by a base agent. The output is a human-readable artifact that can be inspected before use. Rather than merely summarizing trajectories, SkillGen leverages contrastive induction over both successful and failed trajectories to identify reusable success patterns, recurring failure modes, and behaviors that appear in nearby successes but are missing from failures. SkillGen then generates candidate skills and iteratively refines the skill. A key novelty in SkillGen is that we model agent skills as interventions to empirically verify the net effect of skills on the overall performance. Specifically, we compare outcomes on the same instances with and without the skill, so that we account for both repairs (cases where the skill fixes a baseline failure) and regressions (cases where the skill breaks a baseline success). Across a broad range of agents and datasets, SkillGen consistently improves held-out performance, outperforms existing skill-generation baselines, and produces skills that transfer across models.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273375+00:00"
+  },
+  {
+    "id": "rss-20260514-008",
+    "title": "An Executable Benchmarking Suite for Tool-Using Agents",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11030",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273382+00:00",
+    "raw_description": "arXiv:2605.11030v1 Announce Type: cross \nAbstract: Closed-loop tool-using agents are increasingly evaluated in executable web, code, and micro-task environments, but benchmark reports often conflate workloads, action-generating drivers, and the evidence admitted for systems-facing claims. We present an executable benchmarking suite that makes these objects explicit under a shared evidence-admission contract. The suite connects WebArena Verified, a SWE-Gym slice with SWE-bench-compatible verification, and MiniWoB++ through common workload adapters, task manifests, event schemas, replay/freeze policy, declared drivers, and reporting pipelines. In the canonical release, the gate separates paper-facing evidence from preflight, fixture, smoke, and diagnostic rows while preserving non-admitted artifacts for audit and onboarding. The admitted evidence records latency, invalid-action behavior, patch-generation cost, verifier metadata, replay bindings, and provenance under one auditable contract. The gate is decision-relevant rather than merely clerical: in a separate WebArena Verified controller study, clean-baseline and medium live-stressed evaluation select different fixed controller variants under the same workload and admission contract. The release is scoped as a benchmarking suite and admitted evidence, not a new agent policy, model leaderboard, backend comparison, or autonomous SWE-bench solver.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273382+00:00"
+  },
+  {
+    "id": "rss-20260514-009",
+    "title": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11117",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273388+00:00",
+    "raw_description": "arXiv:2605.11117v1 Announce Type: cross \nAbstract: Scientific discovery can be modeled as a sequence of probabilistic decisions that map physical problems to numerical solutions. Recent agentic AI systems automate individual scientific tasks by orchestrating LLM-driven planners, solvers, and evaluators. Each method is a combination of methodological actions, with many viable combinations for any given problem and structural dependencies between choices. However, existing frameworks treat each problem in isolation, with no shared substrate to accumulate methodological experience across domains. Here we show that GRAFT-ATHENA, a self-improving agentic framework, learns from past problems and autonomously expands its own action space across diverse domains. GRAFT (Graph Reduction to Adaptive Factored Trees) projects combinatorial decision spaces into factored probabilistic trees in which each method is a single path, taking the parameter footprint from exponential to linear. In the lineage of classical Bayesian networks, the factorization is an $I$-map of the policy, and the resulting paths embed as unique fingerprints in a metric space whose closeness lets each new problem learn from similar past ones. On canonical physics-informed machine learning (PIML) benchmarks, GRAFT-ATHENA improves over human and prior agentic baselines, and on production solvers, it tackles complex engineering problems such as reconstructing Mach-10 flow over the Apollo Command Module from a 1968 report and recovering shear-thinning blood-cell rheology. Notably, the system grows its own knowledge substrate, autonomously proposing regularization constraints for ill-posed inverse problems and discovering new numerical methods such as a spectral PINN with exponential convergence. These results provide a foundation for autonomous laboratories that grow more capable with every problem they solve.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273388+00:00"
+  },
+  {
+    "id": "rss-20260514-010",
+    "title": "The Price of Proportional Representation in Temporal Voting",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11157",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273391+00:00",
+    "raw_description": "arXiv:2605.11157v1 Announce Type: cross \nAbstract: We study proportional representation in the temporal voting model, where collective decisions are made repeatedly over time over a fixed horizon. Prior work has extensively investigated how proportional representation axioms from multiwinner voting (e.g., justified representation (JR) and its variants) can be adapted, satisfied, and verified in this setting. However, much less is understood about their interaction with social welfare. In this work, we quantify the efficiency cost of enforcing proportionality. We formalize the welfare-proportionality tension via the worst-case ratio between the maximum achievable utilitarian welfare and the maximum welfare attainable subject to a proportionality axiom. We show that imposing proportional representation in the temporal setting can incur a growing, yet sublinear, welfare loss as the number of voters or rounds increases. We further identify a clean separation among axioms: for JR, the welfare loss diminishes as the time horizon grows and vanishes asymptotically, whereas for stronger axioms this conflict persists even with many rounds. Moreover, we prove that welfare maximization under each axiom is NP-complete and APX-hard, even under static preferences and bounded-degree approvals, and provide fixed-parameter algorithms under several natural structural parameters.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273391+00:00"
+  },
+  {
+    "id": "rss-20260514-011",
+    "title": "Multi-Agent System Identification with Nonlinear Sheaf Diffusion",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11204",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273394+00:00",
+    "raw_description": "arXiv:2605.11204v1 Announce Type: cross \nAbstract: Local interaction laws governing multi-agent systems can be difficult to recover from trajectory data, even when the dynamics are observed faithfully. In systems governed by a nonlinear sheaf Laplacian -- a generalization of the graph Laplacian accommodating heterogeneous state spaces and asymmetric communication channels -- the coordination law is encoded by edge potential functions whose gradients produce the inter-agent forces. Because trajectory observations record node-state evolution, they expose only the aggregate effect of the edge forces at each node: distinct interaction laws that agree at the node level are indistinguishable from trajectory data alone. We show that the fundamental obstruction to recovery is topological, measured by sheaf cohomology, and that unique recovery from an unconstrained function class is possible if and only if this cohomology vanishes. When the obstruction is nontrivial, we show that recovery within a finite-dimensional parameterized class is possible precisely when a data-dependent information matrix is positive definite. Experiments validate the theory and illustrate that accurate trajectory reproduction need not certify recovery of the underlying interaction law.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273394+00:00"
+  },
+  {
+    "id": "rss-20260514-012",
+    "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11225",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273396+00:00",
+    "raw_description": "arXiv:2605.11225v1 Announce Type: cross \nAbstract: Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended horizons. PIVOT (Plan-Inspect-eVOlve Trajectories) addresses this plan-execution misalignment through a self-supervised framework that treats trajectories as optimizable objects iteratively refined via environment interaction. The framework comprises four stages: PLAN generates candidate trajectories; INSPECT executes them and computes structured losses with textual gradients encoding plan-execution discrepancies; EVOLVE applies these signals to produce improved trajectories; and VERIFY performs a final global check against task constraints. A monotonic acceptance process ensures a non-decreasing solution quality. Empirical evaluations on DeepPlanning and GAIA demonstrate state-of-the-art performance: with human-in-the-loop (HITL) feedback, PIVOT establishes a strong upper bound up to 94% relative improvement in constraint satisfaction, while its fully autonomous variant retains substantial gains, showing that the core trajectory-refinement mechanism remains effective without external supervision. At the same time, PIVOT remains computationally efficient, requiring up to 3x to 5x fewer tokens than competing refinement methods. These findings establish that (self- or human-supervised) feedback-based trajectory optimization is a principled methodology for mitigating plan-execution gaps in autonomous agent systems.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273396+00:00"
+  },
+  {
+    "id": "rss-20260514-013",
+    "title": "Digital Identity for Agentic Systems: Toward a Portable Authorization Standard for Autonomous Agents",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11487",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273398+00:00",
+    "raw_description": "arXiv:2605.11487v1 Announce Type: cross \nAbstract: Enterprise AI is shifting from copilots to autonomous agents capable of executing workflows, negotiating outcomes, and making decisions with limited human oversight. As these systems extend across organizational boundaries, identity alone is insufficient: an agent's authority must also be explicit, constrained, auditable, revocable, and consistently interpretable by independent receivers. This paper analyzes representative enterprise use cases in insurance claims processing and supply chain integrity to surface structural gaps in existing identity and access models. It proposes a portable authorization model for autonomous agents based on issuer-authored authorization payloads, typed constraint algebra, decision-consistent evaluation semantics, delegation attenuation, governed semantic resolution, fail-closed processing, and pre-flight discovery. The model separates credential containers, authorization payload semantics, and enforcement engines, allowing profiles such as JWT/JWS, Verifiable Credentials, OAuth Rich Authorization Requests, or policy-engine bindings to preserve a common authorization meaning across trust boundaries.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273398+00:00"
+  },
+  {
+    "id": "rss-20260514-014",
+    "title": "Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks: Joint Optimization of Flight and Connectivity",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11509",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273400+00:00",
+    "raw_description": "arXiv:2605.11509v1 Announce Type: cross \nAbstract: Uncrewed aerial vehicles (UAVs) are increasingly deployed in complex networked environments, yet the joint optimization of multi-UAV motion control and connectivity remains a fundamental challenge. In this paper, we study a multi-UAV system operating in an integrated terrestrial and non-terrestrial network (ITNTN) comprising terrestrial base stations and high-altitude platform stations (HAPS). We consider a three-dimensional (3D) aerial highway scenario where UAVs must adapt their motion to ensure collision avoidance, efficient traffic flow, and reliable communication under dynamic and partially observable conditions. We first model the problem as a hierarchical multi-objective partially observable Markov decision process (H-MO-POMDP), capturing the coupling between control and communication objectives. Based on this formulation, we propose a large language model (LLM)-driven hierarchical multi-rate control framework. At the global level, an LLM-based controller on the HAPS performs long-term planning for load balancing and handover decisions. At the local level, each UAV employs a hybrid controller that integrates a slow-timescale LLM for high-level spatial reasoning with a reinforcement learning agent for faster UAV-to-infrastructure (U2I) communication and motion control. We further develop a high-fidelity 3D simulation platform by integrating the gym-pybullet-drones environment with 3GPP-compliant RF/THz channel models. Numerical results demonstrate that the proposed framework significantly outperforms state-of-the-art baselines, achieving a 14% increase in transportation efficiency and a 25% improvement in telecommunication throughput. Additionally, it achieves a 23% reduction in physical collision rates, demonstrating strong handover stability and zero-shot generalization in dynamic scenarios.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273400+00:00"
+  },
+  {
+    "id": "rss-20260514-015",
+    "title": "Shaping Zero-Shot Coordination via State Blocking",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11688",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273403+00:00",
+    "raw_description": "arXiv:2605.11688v1 Announce Type: cross \nAbstract: Zero-shot coordination (ZSC) aims to enable agents to cooperate with independently trained partners without prior interaction, a key requirement for real-world multi-agent systems and human-AI collaboration. Existing approaches have largely emphasized increasing partner diversity during training, yet such strategies often fall short of achieving reliable generalization to unseen partners. We introduce State-Blocked Coordination (SBC), a simple yet effective framework that improves ZSC by inducing diverse interaction scenarios without direct environment modification. Specifically, SBC generates a family of virtual environments through state blocking, allowing agents to experience a wide range of suboptimal partner policies. Across multiple benchmarks, SBC demonstrates superior performance in zero-shot coordination, including strong generalization to human partners.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273403+00:00"
+  },
+  {
+    "id": "rss-20260514-016",
+    "title": "A Research Agenda on Agents and Software Engineering: Outcomes from the Rio A2SE Seminar",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11720",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273405+00:00",
+    "raw_description": "arXiv:2605.11720v1 Announce Type: cross \nAbstract: The rise of agentic AI is reshaping software engineering in two intertwined directions: agents are increasingly applied to support software engineering tasks, and Agentic AI systems themselves are complex systems that require re-thinking currently established software engineering practices. To chart a coherent research agenda covering the two directions, we organized the A2SE seminar in Rio de Janeiro, bringing together 18 experts from academia and industry. Through structured presentations, collaborative topic clustering, and focused group discussions, participants identified six thematic areas: Governance, Software Engineering for Agents, Agents for Software Architecture, Quality and Evaluation, Sustainability, and Code, and they prioritized short-term and long-term research directions for each. This paper presents the resulting community-driven, opinionated research agenda, offering the SE community a structured foundation for coordinating efforts at this critical juncture.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273405+00:00"
+  },
+  {
+    "id": "rss-20260514-017",
+    "title": "AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11732",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273407+00:00",
+    "raw_description": "arXiv:2605.11732v1 Announce Type: cross \nAbstract: In this paper, we present AgentDisCo, a novel Disentangled and Collaborative agentic architecture that formulates deep research as an adversarial optimization problem between information exploration and exploitation. Unlike existing approaches that conflate these two processes into a single module, AgentDisCo employs a critic agent to evaluate generated outlines and refine search queries, and a generator agent to retrieve updated results and revise outlines accordingly. The iteratively refined outline is then passed to a downstream report writer that synthesizes a comprehensive research report. The overall workflow supports both handcrafted and automatically discovered design strategies via a meta-optimization harness, in which the generator agent is repurposed as a scoring agent to evaluate critic outputs and generate quality signals. Powerful code-generation agents (e.g., Claude-Code, Codex) systematically explore agent configurations and construct a policy bank, a structured repository of reusable design strategies, enabling the framework to self-refine without extensive human intervention. We evaluate AgentDisCo on three established deep research benchmarks (DeepResearchBench, DeepConsult, DeepResearchGym) using Gemini-2.5-Pro, achieving performance comparable to or surpassing leading closed-source systems. Observing that existing benchmarks inadequately reflect real-world user needs, we introduce GALA (General AI Life Assistants), a benchmark that mines latent research interests from users' historical browsing behavior. We further develop a rendering agent that converts research reports into visually rich poster presentations, and demonstrate an end-to-end product, AutoResearch Your Interest, which delivers personalized deep research recommendations derived from individual browsing histories.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273407+00:00"
+  },
+  {
+    "id": "rss-20260514-018",
+    "title": "Adaptive TD-Lambda for Cooperative Multi-agent Reinforcement Learning",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.11880",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273409+00:00",
+    "raw_description": "arXiv:2605.11880v1 Announce Type: cross \nAbstract: TD($\\lambda$) in value-based MARL algorithms or the Temporal Difference critic learning in Actor-Critic-based (AC-based) algorithms synergistically integrate elements from Monte-Carlo simulation and Q function bootstrapping via dynamic programming, which effectively addresses the inherent bias-variance trade-off in value estimation. Based on that, some recent works link the adaptive $\\lambda$ value to the policy distribution in the single-agent reinforcement learning area. However, because of the large joint action space from multiple number of agents, and the limited transition data in Multi-agent Reinforcement Learning, the policy distribution is infeasible to be calculated statistically. To solve the policy distribution calculation problem in MARL settings, we employ a parametric likelihood-free density ratio estimator with two replay buffers instead of calculating statistically. The two replay buffers of different sizes store the historical trajectories that represent the data distribution of the past and current policies correspondingly. Based on the estimator, we assign Adaptive TD($\\lambda$), \\textbf{ATD($\\lambda$)}, values to state-action pairs based on their likelihood under the stationary distribution of the current policy. We apply the proposed method on two competitive baseline methods, QMIX for value-based algorithms, and MAPPO for AC-based algorithms, over SMAC benchmarks and Gfootball academy scenarios, and demonstrate consistently competitive or superior performance compared to other baseline approaches with static $\\lambda$ values.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273409+00:00"
+  },
+  {
+    "id": "rss-20260514-019",
+    "title": "SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.12015",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273411+00:00",
+    "raw_description": "arXiv:2605.12015v1 Announce Type: cross \nAbstract: Reusable skills are becoming a common interface for extending large language model agents, packaging procedural guidance with access to files, tools, memory, and execution environments. However, this modularity introduces attack surfaces that are largely missed by existing safety evaluations: even when the user request is benign, task-relevant skill materials or local artifacts can steer an agent toward unsafe actions. We present SkillSafetyBench, a runnable benchmark for evaluating such skill-mediated safety failures. SkillSafetyBench includes 155 adversarial cases across 47 tasks, 6 risk domains, and 30 safety categories, each evaluated with a case-specific rule-based verifier. Experiments with multiple CLI agents and model backends show that localized non-user attacks can consistently induce unsafe behavior, with distinct failure patterns across domains, attack methods, and scaffold-model pairings. Our findings suggest that agent safety depends not only on model-level alignment, but also on how agents interpret skills, trust workflow context, and act through executable environments.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273411+00:00"
+  },
+  {
+    "id": "rss-20260514-020",
+    "title": "Intermediate Artifacts as First-Class Citizens: A Data Model for Durable Intermediate Artifacts in Agentic Systems",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.12087",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-14T00:05:20.273414+00:00",
+    "raw_description": "arXiv:2605.12087v1 Announce Type: cross \nAbstract: Many AI systems are organized around loops in which models reason, call tools, observe results, and continue until a task is complete. These systems often produce final artifacts such as memos, plans, recommendations, and analyses, while the intermediate work that shaped those outputs remains ephemeral. For multi-step, revisable AI work, final artifacts are often lossy projections over upstream state.\n  We argue that such systems should preserve durable, inspectable intermediate artifacts: typed, structured, addressable, versioned, dependency-aware, authoritative, and consumable by downstream computation. These artifacts are not the model's private chain-of-thought. They are maintained work products such as evidence maps, claim structures, criteria, assumptions, plans, transformation rules, synthesis procedures, unresolved tensions, and partial products that later humans and agents can inspect, revise, supersede, and improve.\n  The contribution is a systems-level data model. We distinguish intermediate artifacts from chat transcripts, memory, hidden chain-of-thought, narration, thinking, and final answers; formalize additive and superseding update semantics with explicit current-state resolution; describe how artifact lineage supports durable intermediate state across revisions; and argue that evaluation must target maintained-state quality, not only final-output quality. The claim is not that artifacts make models smarter. It is that durable intermediate artifacts make AI-generated work more inspectable, revisable, and maintainable over time.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-14T00:05:20.273414+00:00"
+  }
+]
