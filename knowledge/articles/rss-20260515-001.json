@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260515-001",
+  "title": "DelAC: A Multi-agent Reinforcement Learning of Team-Symmetric Stochastic Games",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12555",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867803+00:00",
+  "collected_at": "2026-05-15T00:00:33.867803+00:00",
+  "summary": "本文研究团队对称随机博弈，证明存在团队对称纳什均衡，并提出基于演员-评论家的多智能体强化学习算法DelAC。实验结果显示该算法在仿真中显著优于多种现有方法，为团队协作博弈提供了有效解决方案。",
+  "score": 7,
+  "tags": [
+    "Multi-agent Reinforcement Learning",
+    "Game Theory",
+    "Stochastic Games",
+    "Actor-Critic"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095875+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260515-007",
+  "title": "Conveyor Parcel Routing with Order-Contiguous Arrivals",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13035",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867837+00:00",
+  "collected_at": "2026-05-15T00:00:33.867837+00:00",
+  "summary": "本文研究了仓储物流中传送带网络的包裹路由问题，提出了订单连续到达的约束条件，并将其形式化为在线多智能体路径规划问题（MAPF-OC）。作者设计了DOPP算法，通过三层结构高效求解，实验验证了其在真实仓库布局下的可扩展性和高质量规划能力。",
+  "score": 7,
+  "tags": [
+    "多智能体路径规划",
+    "仓储物流",
+    "在线规划",
+    "订单连续性"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095903+00:00"
+}

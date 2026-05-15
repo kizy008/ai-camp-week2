@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260515-002",
+  "title": "Synthesizing the Expert: A Validated Multimodal Dataset for Trustworthy AI-Assisted Swimming Coaching",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12799",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867819+00:00",
+  "collected_at": "2026-05-15T00:00:33.867819+00:00",
+  "summary": "该研究提出一个多智能体LLM框架，用于合成高质量多模态数据集，以支持游泳教练的可信AI辅助。通过生成1864个经过验证的问答三元组，解决了真实数据稀缺和伦理问题，为游泳领域RAG系统建立基准。",
+  "score": 8,
+  "tags": [
+    "RAG",
+    "multimodal dataset",
+    "AI coaching"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095884+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-009",
+  "title": "A Multi-Agent Orchestration Framework for Venture Capital Due Diligence",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13110",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867849+00:00",
+  "collected_at": "2026-05-15T00:00:33.867849+00:00",
+  "summary": "该论文介绍了一个完全自动化的多智能体框架，用于风险投资中的企业尽职调查和市场分析。系统采用事件驱动架构，结合大语言模型和实时网页检索，将非结构化数据转化为结构化投资情报。核心创新包括对希腊商业登记处的程序化数据提取管道，以及通过结构性回退机制标记数据缺失而非生成未经验证数字，从而减轻金融场景中的幻觉问题。",
+  "score": 7,
+  "tags": [
+    "多智能体系统",
+    "大语言模型",
+    "尽职调查",
+    "风险投资",
+    "事件驱动架构"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095909+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-013",
+  "title": "Can LLM Agents Simulate Dynamic Networks? A Case Study on Email Networks with Phishing Synthesis",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12507",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867859+00:00",
+  "collected_at": "2026-05-15T00:00:33.867859+00:00",
+  "summary": "本文评估了LLM多智能体系统模拟动态网络的能力，发现现有框架在微观交互上表现良好但无法复现真实宏观拓扑。作者提出两种扩展（数据驱动事件触发和Hawkes过程）来保持网络保真度，并在邮件网络钓鱼攻击合成中展示了其有效性。",
+  "score": 8,
+  "tags": [
+    "LLM agents",
+    "multi-agent systems",
+    "dynamic networks",
+    "phishing synthesis",
+    "Hawkes processes"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095925+00:00"
+}

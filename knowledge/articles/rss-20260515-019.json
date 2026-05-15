@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260515-019",
+  "title": "Finding the Weakest Link: Adversarial Attack against Multi-Agent Communications",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13170",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867871+00:00",
+  "collected_at": "2026-05-15T00:00:33.867871+00:00",
+  "summary": "本文研究了针对多智能体通信的对抗性攻击方法，通过雅可比梯度识别最易受攻击的消息、智能体和时间步，并提出两种损失函数以平衡攻击成功率与影响力。实验在导航、捕食者-猎物和交通路口等环境中验证了方法的有效性，为多智能体系统安全性提供了新视角。",
+  "score": 8,
+  "tags": [
+    "多智能体系统",
+    "对抗性攻击",
+    "强化学习",
+    "通信安全"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095945+00:00"
+}

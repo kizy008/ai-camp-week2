@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-008",
+  "title": "Counterfactual Reasoning for Causal Responsibility Attribution in Probabilistic Multi-Agent Systems",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13077",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867845+00:00",
+  "collected_at": "2026-05-15T00:00:33.867845+00:00",
+  "summary": "该论文提出了一种基于反事实推理的因果责任分配框架，用于概率性多代理系统。通过引入溯因反事实责任概念，并利用Shapley值实现公平且一致的责任分配，同时支持责任感知系统中的验证与战略推理。基于纳什均衡，论文展示了如何计算代理在责任与期望奖励之间权衡的稳定策略剖面。",
+  "score": 8,
+  "tags": [
+    "反事实推理",
+    "多代理系统",
+    "责任分配",
+    "博弈论",
+    "公平性"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095906+00:00"
+}

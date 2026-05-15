@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260515-018",
+  "title": "Occlusion-Based Object Transportation Around Obstacles With a Swarm of Miniature Robots",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13006",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867869+00:00",
+  "collected_at": "2026-05-15T00:00:33.867869+00:00",
+  "summary": "本文提出一种扩展的基于遮挡的群体机器人物体运输策略，通过让机器人自主形成子目标链来绕过障碍物，从而保持对目标的视觉接触。该方法完全分布式且无需通信，实验证明在不同形状障碍物和起始位置下均能有效运输物体。",
+  "score": 7,
+  "tags": [
+    "swarm robotics",
+    "occlusion-based strategy",
+    "object transportation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095942+00:00"
+}

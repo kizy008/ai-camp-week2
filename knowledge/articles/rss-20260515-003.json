@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-003",
+  "title": "Mechanism Plausibility in Generative Agent-Based Modeling",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12824",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867823+00:00",
+  "collected_at": "2026-05-15T00:00:33.867823+00:00",
+  "summary": "本文提出机制合理性量表（Mechanism Plausibility Scale），通过区分生成充分性与机制合理性，为评估基于大语言模型的生成式主体模型提供分层标准。该工作整合了科学哲学与计算社会科学，帮助研究者明确模型在解释现象时的角色差异。",
+  "score": 7,
+  "tags": [
+    "agent-based modeling",
+    "large language models",
+    "mechanism plausibility",
+    "social simulation",
+    "philosophy of science"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095889+00:00"
+}

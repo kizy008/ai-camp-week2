@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260515-014",
+  "title": "Macro-Action Based Multi-Agent Instruction Following through Value Cancellation",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12655",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867861+00:00",
+  "collected_at": "2026-05-15T00:00:33.867861+00:00",
+  "summary": "提出MAVIC方法，通过在指令边界修正贝尔曼备份，解决多智能体强化学习中指令中断宏动作导致的价值估计不一致问题。理论分析和实验表明，该方法在复杂协作环境中保持基任务性能的同时，显著提升指令遵从性。",
+  "score": 7,
+  "tags": [
+    "multi-agent reinforcement learning",
+    "instruction following",
+    "value correction",
+    "macro-action"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095929+00:00"
+}

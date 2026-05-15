@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-011",
+  "title": "Constitutional Governance in Metric Spaces",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13362",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867854+00:00",
+  "collected_at": "2026-05-15T00:00:33.867854+00:00",
+  "summary": "该论文提出了一种在度量空间中整合聚合、商议、修正和共识的端到端多项式时间宪政治理框架，适用于数字社区和组织的民主决策。通过广义中位数规则和超多数修正机制，框架提供了理论保证，包括防策略性证明，并通过模拟验证了简单启发式在缩小妥协差距方面的有效性。",
+  "score": 7,
+  "tags": [
+    "computational social choice",
+    "metric spaces",
+    "constitutional governance",
+    "algorithmic game theory",
+    "generalised median"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095919+00:00"
+}

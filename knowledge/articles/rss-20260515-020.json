@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-020",
+  "title": "Decoupled Planning for Multiple Omega-Regular Objectives",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13185",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867873+00:00",
+  "collected_at": "2026-05-15T00:00:33.867873+00:00",
+  "summary": "本文提出一种解耦规划框架，将多个ω-正则目标的路径生成问题分解为独立代理的局部策略与全局调度器的动态组合，并分析了在无通信条件下确保目标满足的可行性、局限性与所需约定。",
+  "score": 8,
+  "tags": [
+    "多智能体系统",
+    "形式化方法",
+    "自动机理论",
+    "路径规划",
+    "调度策略"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095948+00:00"
+}

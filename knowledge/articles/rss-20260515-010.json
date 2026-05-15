@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260515-010",
+  "title": "When Does Hierarchy Help? Benchmarking Agent Coordination in Event-Driven Industrial Scheduling",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13172",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867852+00:00",
+  "collected_at": "2026-05-15T00:00:33.867852+00:00",
+  "summary": "本文提出DESBench基准，用于评估层次化事件驱动工业调度中的智能体协调，比较四种协调范式（集中式、层次式、异层次、全息式）的权衡。实验发现各范式在鲁棒性、效率、灵活性等方面各有优劣，揭示了协调设计对系统行为的关键影响。",
+  "score": 8,
+  "tags": [
+    "multi-agent systems",
+    "coordination",
+    "industrial scheduling",
+    "benchmarking"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095916+00:00"
+}

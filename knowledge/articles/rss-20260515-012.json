@@ -1,0 +1,20 @@
+{
+  "id": "rss-20260515-012",
+  "title": "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.13762",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867857+00:00",
+  "collected_at": "2026-05-15T00:00:33.867857+00:00",
+  "summary": "EconAI框架通过引入经济情绪指数、记忆加权和动态决策机制，利用大语言模型实现经济智能体的自适应行为，能够模拟宏观微观经济环境的统一交互。实验表明该方法提升了经济响应的稳定性、就业-消费周期的复现性以及决策鲁棒性。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "多智能体系统",
+    "经济模拟",
+    "情绪分析"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095922+00:00"
+}

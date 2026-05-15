@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260515-006",
+  "title": "Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue",
+  "source": "rss:arXiv cs.MA",
+  "source_url": "https://arxiv.org/abs/2605.12920",
+  "author": "arXiv cs.MA",
+  "published_at": "2026-05-15T00:00:33.867832+00:00",
+  "collected_at": "2026-05-15T00:00:33.867832+00:00",
+  "summary": "本文研究基于LLM的具身多智能体通过自然语言对话进行协调，提出世界模型对齐的度量框架（观察收敛、信息新颖性、信念敏感消息）。实验表明对话减少动作冲突但降低任务成功率，揭示了表面协调与真正对齐间的差距。",
+  "score": 7,
+  "tags": [
+    "Multi-Agent Systems",
+    "Embodied AI",
+    "Dialogue",
+    "World Models",
+    "Coordination"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-15T00:01:59.095899+00:00"
+}
