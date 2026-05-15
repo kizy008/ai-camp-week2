@@ -1,20 +1,17 @@
 {
   "id": "rss-20260515-005",
-  "title": "SHM-Agents: A Generalist-Specialist Integrated Agent System for Structural Health Monitoring",
+  "title": "Temporal Fair Division in Multi-Agent Systems: From Precise Alternation Metrics to Scalable Coordination Proxies",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12916",
+  "source_url": "https://arxiv.org/abs/2605.14879",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867829+00:00",
-  "collected_at": "2026-05-15T00:00:33.867829+00:00",
-  "summary": "提出SHM-Agents，一种通用-专用集成的智能体系统，结合大语言模型的推理规划能力与专业算法，通过自然语言实现结构健康监测任务的端到端执行。系统支持深度学习预训练和模块化扩展，在斜拉桥实验中验证了多种任务的高效性。",
-  "score": 7,
+  "published_at": "2026-05-15T23:57:33.978661+00:00",
+  "collected_at": "2026-05-15T23:57:33.978661+00:00",
+  "summary": "arXiv:2605.14879v1 Announce Type: new \nAbstract: A plethora real-world environments require agents to compete repeatedly for the same limited resource, calling for a temporal notion of fairness judged",
+  "score": 5,
   "tags": [
-    "多智能体系统",
-    "大型语言模型",
-    "结构健康监测",
-    "工程应用"
+    "llm"
   ],
   "audience": "intermediate",
-  "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095896+00:00"
+  "status": "draft",
+  "updated_at": "2026-05-15T23:58:48.686821+00:00"
 }

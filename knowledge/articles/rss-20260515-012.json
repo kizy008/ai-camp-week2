@@ -1,20 +1,19 @@
 {
   "id": "rss-20260515-012",
-  "title": "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
+  "title": "Quantum Advantage in Multi Agent Reinforcement Learning",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13762",
+  "source_url": "https://arxiv.org/abs/2605.14235",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867857+00:00",
-  "collected_at": "2026-05-15T00:00:33.867857+00:00",
-  "summary": "EconAI框架通过引入经济情绪指数、记忆加权和动态决策机制，利用大语言模型实现经济智能体的自适应行为，能够模拟宏观微观经济环境的统一交互。实验表明该方法提升了经济响应的稳定性、就业-消费周期的复现性以及决策鲁棒性。",
+  "published_at": "2026-05-15T23:57:33.978686+00:00",
+  "collected_at": "2026-05-15T23:57:33.978686+00:00",
+  "summary": "本文通过CHSH游戏和Cooperative Navigation任务，实证了量子纠缠在多智能体强化学习中能够带来超越经典算法的优势，并区分了纠缠与量子电路本身的作用，证明纠缠是关键的协调机制。",
   "score": 7,
   "tags": [
-    "LLM",
-    "多智能体系统",
-    "经济模拟",
-    "情绪分析"
+    "quantum reinforcement learning",
+    "multi-agent systems",
+    "entanglement"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095922+00:00"
+  "updated_at": "2026-05-15T23:58:48.686847+00:00"
 }

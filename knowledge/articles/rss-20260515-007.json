@@ -1,20 +1,21 @@
 {
   "id": "rss-20260515-007",
-  "title": "Conveyor Parcel Routing with Order-Contiguous Arrivals",
+  "title": "GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13035",
+  "source_url": "https://arxiv.org/abs/2605.09027",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867837+00:00",
-  "collected_at": "2026-05-15T00:00:33.867837+00:00",
-  "summary": "本文研究了仓储物流中传送带网络的包裹路由问题，提出了订单连续到达的约束条件，并将其形式化为在线多智能体路径规划问题（MAPF-OC）。作者设计了DOPP算法，通过三层结构高效求解，实验验证了其在真实仓库布局下的可扩展性和高质量规划能力。",
-  "score": 7,
+  "published_at": "2026-05-15T23:57:33.978667+00:00",
+  "collected_at": "2026-05-15T23:57:33.978667+00:00",
+  "summary": "GAMBIT是一个多智能体LLM系统的对抗鲁棒性基准测试，包含三个评估模式和两个独立评分，用于检测欺骗性智能体。基于国际象棋深度推理任务和27k+标注实例，展示了零样本评估的误导性，并提出了可泛化的进化对抗框架。",
+  "score": 8,
   "tags": [
-    "多智能体路径规划",
-    "仓储物流",
-    "在线规划",
-    "订单连续性"
+    "multi-agent systems",
+    "adversarial robustness",
+    "benchmark",
+    "LLM",
+    "evolutionary framework"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095903+00:00"
+  "updated_at": "2026-05-15T23:58:48.686828+00:00"
 }

@@ -1,21 +1,20 @@
 {
   "id": "rss-20260515-020",
-  "title": "Decoupled Planning for Multiple Omega-Regular Objectives",
+  "title": "OMAC: A Holistic Optimization Framework for LLM-Based Multi-Agent Collaboration",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13185",
+  "source_url": "https://arxiv.org/abs/2505.11765",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867873+00:00",
-  "collected_at": "2026-05-15T00:00:33.867873+00:00",
-  "summary": "本文提出一种解耦规划框架，将多个ω-正则目标的路径生成问题分解为独立代理的局部策略与全局调度器的动态组合，并分析了在无通信条件下确保目标满足的可行性、局限性与所需约定。",
-  "score": 8,
+  "published_at": "2026-05-15T23:57:33.978704+00:00",
+  "collected_at": "2026-05-15T23:57:33.978704+00:00",
+  "summary": "OMAC提出了一种针对基于LLM的多智能体协作系统的全面优化框架，定义了五个关键优化维度，并设计了语义初始化和对比比较两个角色来优化单个维度及多维度联合优化。实验表明该方法在代码生成和算术推理等任务上优于现有方法。",
+  "score": 7,
   "tags": [
-    "多智能体系统",
-    "形式化方法",
-    "自动机理论",
-    "路径规划",
-    "调度策略"
+    "Multi-Agent Systems",
+    "LLM",
+    "Optimization",
+    "Collaboration"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095948+00:00"
+  "updated_at": "2026-05-15T23:58:48.686872+00:00"
 }

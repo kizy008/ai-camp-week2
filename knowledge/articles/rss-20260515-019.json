@@ -1,20 +1,21 @@
 {
   "id": "rss-20260515-019",
-  "title": "Finding the Weakest Link: Adversarial Attack against Multi-Agent Communications",
+  "title": "Sequential Resource Trading Using Comparison-Based Gradient Estimation",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13170",
+  "source_url": "https://arxiv.org/abs/2408.11186",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867871+00:00",
-  "collected_at": "2026-05-15T00:00:33.867871+00:00",
-  "summary": "本文研究了针对多智能体通信的对抗性攻击方法，通过雅可比梯度识别最易受攻击的消息、智能体和时间步，并提出两种损失函数以平衡攻击成功率与影响力。实验在导航、捕食者-猎物和交通路口等环境中验证了方法的有效性，为多智能体系统安全性提供了新视角。",
-  "score": 8,
+  "published_at": "2026-05-15T23:57:33.978701+00:00",
+  "collected_at": "2026-05-15T23:57:33.978701+00:00",
+  "summary": "本文提出一种基于比较的梯度估计算法，用于两个贪婪理性代理人在未知对方效用函数情况下的序列多议题资源交易。算法通过将接受/拒绝反馈解释为状态比较来迭代估计梯度，保证每次交易严格互利并最终收敛到帕累托前沿，实验表明该方法在效率和社会效益上优于基线。",
+  "score": 7,
   "tags": [
     "多智能体系统",
-    "对抗性攻击",
-    "强化学习",
-    "通信安全"
+    "资源分配",
+    "梯度估计",
+    "帕累托最优",
+    "序列交易"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095945+00:00"
+  "updated_at": "2026-05-15T23:58:48.686870+00:00"
 }

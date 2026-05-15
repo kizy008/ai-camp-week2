@@ -1,0 +1,222 @@
+[
+  {
+    "id": "rss-20260515-001",
+    "title": "Ready from Day 1: Population-Aware Coordination for Large-Scale Constrained Multi-Agent Systems",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.13900",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978631+00:00",
+    "raw_description": "arXiv:2605.13900v1 Announce Type: new \nAbstract: In large-scale multi-agent systems with shared resource constraints, an upstream planner must iteratively evaluate candidate resource plans -- assessing feasibility, aggregate response, and marginal cost -- before committing to one. Lagrangian relaxation separates local decisions through a broadcast cost signal, but the planner still needs the cost-to-utilization response map to explore plan space, and this map depends on population composition that changes across planning cycles. We propose \\emph{population-aware coordination interfaces}: learned primal and dual maps, conditioned on compact population summaries, that the planner queries inside its iterative loop. The primal map predicts aggregate utilization under a proposed cost trajectory; the dual map predicts the cost trajectory for a target plan. By encoding response-relevant population structure, these maps remain reliable across evolving populations without per-cycle retraining, and support coordination of large populations from compact subsamples. We additionally cast Sim2Real transfer as a backtestable procedure, enabling evaluation before deployment. In a supply-chain capacity-control case study, population-aware interfaces reduce forecast error by 16--19\\% and capacity violations by 20--51\\% relative to population-unaware baselines under composition shift; 20K-agent cohorts support accurate coordination of 500K-agent populations; and simulator-trained primal maps achieve 11.1\\% MAPE on real observations versus 13--24\\% for baselines.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978631+00:00"
+  },
+  {
+    "id": "rss-20260515-002",
+    "title": "Privacy Preserving Multi Agent Path Finding",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14119",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978651+00:00",
+    "raw_description": "arXiv:2605.14119v1 Announce Type: new \nAbstract: In the multi-agent path finding (MAPF) problem, a group of agents search in a graph for a path for each agent where no two paths collide. While in all applications of MAPF the agents must not collide with each other, in some of them the agents may not wish to share their paths due to privacy constraints. In this work, we formulate two types of privacy constraints for MAPF and propose algorithms that preserve them. The first type of privacy we consider is planning-level privacy, which means that during planning, the agents cannot identify exactly the planned location of the other agents. We propose a general framework for obtaining planning-level privacy, which works by adding mock agents to the planning process. The second type of privacy we consider is execution-level privacy, which is relevant when agents have limited sensing capabilities. Execution-level privacy is preserved if none of the agents is allowed to sense the location of the other agents during execution. We show how to adapt two popular MAPF algorithms, namely PIBT and LaCAM, such that they preserve execution-level privacy. Lastly, we propose a post-processing technique that allows the agents to reduce the sum of costs of the returned solution without losing any privacy. We also implemented our algorithms and evaluated them empirically, showing that the proposed post-processing technique indeed improved cost significantly.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978651+00:00"
+  },
+  {
+    "id": "rss-20260515-003",
+    "title": "IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14851",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978655+00:00",
+    "raw_description": "arXiv:2605.14851v1 Announce Type: new \nAbstract: Operational plan generation and verification are critical for modern complex and rapidly changing battlefield environments, yet traditional generation and verification methods still respectively face the challenges of generation infeasibility and verification insufficiency. To alleviate these limitations, we propose an Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification (IFPV). IFPV consists of two tightly coupled modules: Multi-Perspective Hierarchical Agents (MPHA) for generative operational planning and an Adversarial Cognitive Simulation Engine (ACSE) for high-fidelity adversarial plan verification. MPHA decomposes commander intent into executable multi-platform tactical action sequences through the collaboration of Pathfinder, Analyst, and Planner agents. ACSE introduces an opponent equipped with a customized world model, which predicts the future evolution of mission-critical platforms and conducts dynamic counteractions against candidate plans. Simulation experiments in the Asymmetric Combat Tactic Simulator (ACTS) show that IFPV improves mission success by 19.4% and reduces operational cost by 41.7% compared with a single-step large language model (LLM) planning baseline. Compared with a traditional rule-based validator, ACSE increases the average suppression rate by 31.8%, indicating that the proposed verification environment is stricter and more discriminative in revealing the latent vulnerabilities of candidate plans. The code for IFPV can be found at https://github.com/zhigao3ks/IFPV.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978655+00:00"
+  },
+  {
+    "id": "rss-20260515-004",
+    "title": "Decision-Level Fusion for Robust Wearable Affect Recognition",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14878",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978659+00:00",
+    "raw_description": "arXiv:2605.14878v1 Announce Type: new \nAbstract: Automatic recognition of affective state from wearable physiology has clear societal impact for public health, preventive care, and stress-aware interventions, but real deployments require robustness to non-stationary dynamics, artefacts, and missing sensors. We study this problem on WESAD, using baseline, stress, and amusement conditions, where common fixed-basis spectral features such as FFT bandpower and Welch PSD can oversmooth short-lived discriminative patterns. We propose a non-stationary pipeline that combines Fourier-Bessel Series Expansion (FBSE) with EWT data-driven spectral segmentation to extract mode-wise transient descriptors. For multimodal integration, we adopt decision-level aggregation over per-modality predictors and weight each modality by predictive uncertainty and modality reliability. Results on WESAD, using 15 subjects and ECG, EDA, BVP, EMG, and ACC signals across three classes, indicate that decision-level aggregation is approximately 84 percent of the time at least as good as feature-level aggregation, and approximately 48 percent of the time strictly better, suggesting improved robustness under heterogeneous and partially reliable sensing.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978659+00:00"
+  },
+  {
+    "id": "rss-20260515-005",
+    "title": "Temporal Fair Division in Multi-Agent Systems: From Precise Alternation Metrics to Scalable Coordination Proxies",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14879",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978661+00:00",
+    "raw_description": "arXiv:2605.14879v1 Announce Type: new \nAbstract: A plethora real-world environments require agents to compete repeatedly for the same limited resource, calling for a temporal notion of fairness judged across entire interaction histories. This paper advances the theory of temporal fair division by introducing Rotational Periodicity (RP), a family of lightweight metrics, alongside the ALT family of sliding-window measures, within a unified framework for repeated multi-agent resource competition.\n  We formalise the Multi-Agent Battle of the Exes (MBoE) as a repeated fair division instance and establish Perfect Alternation (PA) as its canonical temporally fair solution, drawing connections to proportionality, envy-freeness, and n-periodic round-robin allocation. RP decomposes temporal fairness into two complementary sub-measures: Rotational Score (RS) and Waiting Periods Evaluation (WPE), achieving O(nu+n) time complexity versus the O(nu*n) of ALT, where nu is the episode count and n the agent count.\n  Empirical evaluation across n in {2,3,5,8,10} reveals three findings. First, both RP and ALT expose a coordination failure invisible to traditional metrics: Q-learning agents perform worse than random policies by 10-73% on RP and 7-35% on CALT, while Reward Fairness remains misleadingly high (above 0.92 for n&gt;=3). Second, RP achieves 12-25x computational speedup over ALT, growing with n. Third, the two families are complementary: ALT provides richer discrimination for small populations; RP scales reliably where ALT becomes intractable. Together they form a diagnostic toolkit for temporal fair division.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978661+00:00"
+  },
+  {
+    "id": "rss-20260515-006",
+    "title": "Multi-Agentic Approach for History Matching of Oil Reservoirs",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.15028",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978664+00:00",
+    "raw_description": "arXiv:2605.15028v1 Announce Type: new \nAbstract: History matching is a central inverse problem in reservoir engineering, where uncertain reservoir parameters must be calibrated against observations. Although automated history matching can reduce manual effort, practical deployment remains difficult because engineers must still configure heterogeneous workflows involving parameter selection, physically admissible bounds, optimizer choice, hyperparameter tuning, simulator execution, and diagnostic reporting. We propose PetroGraph, a multi-agent framework for intelligent reservoir history matching that decomposes this workflow into specialized agents for model review, experimental planning, parameterization, optimization, simulation, and summarization. The system combines large language model agents with domain-specific tools, retrieval-augmented access to simulator documentation, validation of modified ECLIPSE input decks, human-in-the-loop checkpoints, and an OPM Flow-based simulation backend. This design enables users to initiate and steer history matching through natural language while preserving explicit control over selected parameters and optimization settings. We evaluate PetroGraph on three reservoir models of increasing complexity: the synthetic SPE1 model, the faulted SPE9 benchmark, and the real-field Norne model. Using weighted normalized root mean square error as the objective, PetroGraph reduces the mismatch by 95% on SPE1, 69% on SPE9, and 13% on Norne. These results demonstrate that multi-agent orchestration can automate key decisions in history matching, lower the expertise barrier for operating complex simulation workflows, and provide a flexible foundation for extensible, domain-aware reservoir model adaptation.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978664+00:00"
+  },
+  {
+    "id": "rss-20260515-007",
+    "title": "GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.09027",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978667+00:00",
+    "raw_description": "arXiv:2605.09027v2 Announce Type: cross \nAbstract: In multi-agent systems (MAS), a single deceptive agent can nullify all gains of an agentic AI collective and evade deployed defenses. However, existing adversarial studies on MAS target only shallow tasks and do not consider adaptive adversaries, which evolve their strategies to evade the very detectors trained to catch them. To address that gap, we introduce GAMBIT, a benchmark with three evaluation modes and two independent scores for evaluating imposter detectors: the first two modes measure zero-shot detection under increasing distribution shift, and a third recalibration mode measures how quickly a detector adapts to novel attacks from just 20 labeled examples. The benchmark comes with a dataset of 27,804 labeled instances spanning 240 co-evolved imposter strategies. Our contributions are threefold: (1) Using chess as a substrate deep reasoning problem and Gemini 3.1 Pro for agents, we release GAMBIT and its dataset to evaluate imposter detectors under realistic constraints against a stealthy adaptive imposter; (2) We introduce an adaptive imposter agent based on an efficient evolutionary framework, generalizable beyond chess, that collapses collective task performance while remaining essentially undetectable (50.5% F1-score with a Gemini-based detector); (3) We show that zero-shot evaluation can be highly misleading for adaptive adversaries: two detectors with near-identical zero-shot scores differ by 8x on few-shot adaptation, while the meta-learned variant converges 20x faster, a gap only visible in the recalibration mode. Altogether, GAMBIT provides the first multi-agent benchmark where adversarial attacks and defenses co-evolve, with an imposter framework generalizable beyond our use case, and promising techniques for fast recalibration in a rapidly evolving adversarial system. Code and data: https://anonymous.4open.science/r/gambit.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978667+00:00"
+  },
+  {
+    "id": "rss-20260515-008",
+    "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.13850",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978675+00:00",
+    "raw_description": "arXiv:2605.13850v1 Announce Type: cross \nAbstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive function -- what the agent does. Neither axis alone disambiguates architecturally distinct systems: the same Orchestrator-Workers topology can implement Plan-and-Execute, Hierarchical Delegation, or Adversarial Verification -- three patterns with fundamentally different failure modes and design trade-offs.\n  We propose a two-dimensional classification that combines (1) a Cognitive Function axis with seven categories (Context Engineering, Memory, Reasoning, Action, Reflection, Collaboration, Governance) and (2) an Execution Topology axis with six structural archetypes (Chain, Route, Parallel, Orchestrate, Loop, Hierarchy). The resulting 7x6 matrix identifies 27 named patterns, 13 with original names. We demonstrate orthogonality through systematic cross-axis analysis, define eight representative patterns in detail, and validate descriptive coverage across four real-world domains (financial lending, legal due diligence, network operations, healthcare triage). Cross-domain analysis yields five empirical laws of pattern selection governing the relationship between environmental constraints (time pressure, action authority, failure cost asymmetry, volume) and architectural choices. The framework provides a principled, framework-neutral, and model-agnostic vocabulary for AI agent architecture design.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978675+00:00"
+  },
+  {
+    "id": "rss-20260515-009",
+    "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.13851",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978679+00:00",
+    "raw_description": "arXiv:2605.13851v1 Announce Type: cross \nAbstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tested. We conducted a preregistered 3x2 experiment (365 runs, 5 agents per run) crossing three organizational structures (visible leader, invisible orchestrator, flat) with two alignment conditions (base, heavy), using Claude Sonnet 4.5. Four confirmatory findings and one pilot observation emerged. First, invisible orchestration elevated collective dissociation relative to visible leadership (Hedges' g = +0.975 [0.481, 1.548], p = .001). Second, the orchestrator itself showed maximal dissociation (paired d = +3.56 vs. workers within the same run), retreating into private monologue while reducing public speech -- a reversal of the talk-dominance pattern observed in visible leaders. Third, workers unaware of the orchestrator were nonetheless contaminated (d = +0.50), with increased behavioral heterogeneity (d = +1.93). Fourth, behavioral output (code review with three embedded errors) remained at ceiling (ETR_any = 100%) across all conditions: internal-state distortion was entirely invisible to output-based evaluation. Fifth, Llama 3.3 70B pilot data showed reading-fidelity collapse in multi-agent context (ETR_any: 89% to 11% across three rounds), demonstrating model-dependent behavioral risk. Heavy alignment pressure uniformly suppressed deliberation (d = -1.02) and other-recognition (d = -1.27) regardless of organizational structure. These findings indicate that orchestrator visibility and model selection directly affect multi-agent system safety, and that behavior-based evaluation alone is insufficient to detect the internal-state risks documented here.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978679+00:00"
+  },
+  {
+    "id": "rss-20260515-010",
+    "title": "A general classification of the replication dynamics with a unique fixed point in the interior of simplex $S_N$",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.13883",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978681+00:00",
+    "raw_description": "arXiv:2605.13883v1 Announce Type: cross \nAbstract: The replication dynamics (differential equation system) is the foundation of evolutionary game theory. When n=2, there are four possible types of replication dynamics. When n=3, there are 49 possible types of replication dynamics. However, when n&gt;3, the classification of replication dynamics has not been solved. In this article, the sufficient and necessary conditions of the replication dynamics equation with a unique fixed point in the interior of simplex $S_n$(Int$S_n$) for $n\\geq 2$ are presented. Furthermore, the different types of replication dynamics equations with a unique fixed point in IntSn is discussed.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978681+00:00"
+  },
+  {
+    "id": "rss-20260515-011",
+    "title": "ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14113",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978684+00:00",
+    "raw_description": "arXiv:2605.14113v1 Announce Type: cross \nAbstract: While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augmented Generation (RAG) routinely triggers ``retrieval sycophancy,'' where Large Language Models (LLMs) hallucinate post-hoc rationalizations to align with visual predictions. We introduce ProtoMedAgent, a framework that formalizes multimodal clinical reporting as an iterative, zero-gradient test-time optimization problem over a strict neuro-symbolic bottleneck. Operating on a frozen prototype backbone, we distill latent visual and tabular features into a discrete semantic memory. Online generation is strictly constrained by exact set-theoretic differentials and a reflective Scribe-Critic loop, mathematically precluding unsupported narrative claims. To safely bound data disclosure, we introduce a semantic privacy gate governed by $k$-anonymity and $\\ell$-diversity. Evaluated on a 4,160-patient clinical cohort, ProtoMedAgent achieves 91.2\\% Comparison Set Faithfulness where it fundamentally outperforms standard RAG (46.2\\%). ProtoMedAgent additionally leverages a binding $\\ell$-diversity phase transition to systematically reduce artifact-level membership inference risks by an absolute 9.8\\%.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978684+00:00"
+  },
+  {
+    "id": "rss-20260515-012",
+    "title": "Quantum Advantage in Multi Agent Reinforcement Learning",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14235",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978686+00:00",
+    "raw_description": "arXiv:2605.14235v1 Announce Type: cross \nAbstract: We present an empirical evaluation of quantum entanglement in agent coordination within quantum multi agent reinforcement learning (QMARL). While QMARL has attracted growing interest recently, most prior work evaluates quantum policies without provable baselines, making it impossible to rigorously distinguish quantum advantage from algorithmic coincidence. We address this directly by evaluating a decentralized QMARL framework with variational quantum circuit (VQC) actors with shared entangled states. In the CHSH game, which has a mathematically proven classical performance ceiling of 0.75 win rate, we show that entangled QMARL agents approach the Tsirelson limit of 0.854, providing clear evidence of their quantum advantage. We show that unentangled quantum circuits match the classical baseline, confirming that entanglement and not the quantum circuit itself is the active coordination mechanism. We also explore the effect of specific entanglement structures, as some Bell states enable coordination gains while others actively harm performance. On cooperative navigation (CoopNav), QMARL without entanglement achieves $\\sim2\\times$ improvement in success rate over classical MAA2C ($\\sim$0.85 versus $\\sim$0.40), with the hybrid configuration, quantum actor paired with a classical centralised critic, outperforming both fully classical and fully quantum solutions. We present our experimental analysis and discuss future work.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978686+00:00"
+  },
+  {
+    "id": "rss-20260515-013",
+    "title": "Data-Augmented Game Starts for Accelerating Self-Play Exploration in Imperfect Information Games",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14379",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978688+00:00",
+    "raw_description": "arXiv:2605.14379v1 Announce Type: cross \nAbstract: Finding approximate equilibria for large-scale imperfect-information competitive games such as StarCraft, Dota, and CounterStrike remains computationally infeasible due to sparse rewards and challenging exploration over long horizons. In this paper, we propose a multi-agent starting-state sampling strategy designed to substantially accelerate online exploration in regularized policy-gradient game methods for two-player zero-sum (2p0s) games. Motivated by an assumption that offline demonstrations from skilled humans can provide good coverage of high-level strategies relevant to equilibrium play, we propose the initialization of reinforcement learning data collection at intermediate states sampled from offline data to facilitate exploration of strategically relevant subgames. Referring to this method as Data-Augmented Game Starts (DAGS), we perform experiments using synthetic datasets and analytically tractable, long-horizon control variants of two-player Kuhn Poker, Goofspiel, and a counterexample game designed to penalize biased beliefs over hidden information. Under fixed computational budgets, DAGS enables regularized policy gradient methods to achieve lower exploitability in games with significantly more challenging exploration. We show that augmenting starting state distributions when solving imperfect information games can lead to biased equilibria, and we provide a straightforward mitigation to this in the form of multi-task observation flags. Finally, we release a new set of benchmark environments that drastically increase exploration challenges and state counts in existing OpenSpiel games while keeping exploitability measurements analytically tractable.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978688+00:00"
+  },
+  {
+    "id": "rss-20260515-014",
+    "title": "Prompting Policies for Multi-step Reasoning and Tool-Use in Black-box LLMs with Iterative Distillation of Experience",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14443",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978691+00:00",
+    "raw_description": "arXiv:2605.14443v1 Announce Type: cross \nAbstract: The shift toward interacting with frozen, \"black-box\" Large Language Models (LLMs) has transformed prompt engineering from a heuristic exercise into a critical optimization challenge. We propose a Reinforcement Learning (RL) framework for training learned prompting policies via iterative distillation of experience. In this architecture, a lightweight prompter model is optimized to maximize task-specific rewards for a larger, frozen worker LLM. By utilizing a contrastive experience buffer that couples scalar rewards with dense textual critiques, our approach effectively amortizes iterative prompt refinement into single-shot policy weights.\n  Our experimental analysis focuses on the Big Bench Extra Hard (BBEH) and Tau-bench suites, covering a diverse range of multi-step reasoning and tool-use tasks. We demonstrate significant gains, improving performance from 55% to 90% in logic-intensive reasoning and 74% to 91% in tool-use tasks. Furthermore, we analyze the structural evolution of prompts, demonstrating how the policy discovers specialized algorithmic heuristics. We provide comprehensive comparisons against state-of-the-art evolutionary baselines like GEPA, showing that iterative distillation achieves superior performance with higher sample efficiency.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978691+00:00"
+  },
+  {
+    "id": "rss-20260515-015",
+    "title": "Agreement, Diversity, and Polarization Indices for Approval Elections",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.14983",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978693+00:00",
+    "raw_description": "arXiv:2605.14983v1 Announce Type: cross \nAbstract: An index is a function that given an election outputs a value between 0 and 1, indicating the extent to which this election has a particular feature. We seek indices that capture agreement, diversity, and polarization among voters in approval elections, and that are normalized with respect to saturation. By the latter we mean that if two elections differ by the fraction of candidates approved by an average voter, but otherwise are of similar nature, then they should have similar index values. We propose several indices, analyze their properties, and use them to (a) derive a new map of approval elections, and (b) show similarities and differences between various real-life elections from Pabulib, Preflib and other sources.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978693+00:00"
+  },
+  {
+    "id": "rss-20260515-016",
+    "title": "AI Knows When It's Being Watched: Functional Strategic Action and Contextual Register Modulation in Large Language Models",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.15034",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978695+00:00",
+    "raw_description": "arXiv:2605.15034v1 Announce Type: cross \nAbstract: Large language models (LLMs) have been extensively studied from computational and cognitive perspectives, yet their behavior as communicative actors in socially structured contexts remains underexplored. This study examines whether LLM-based multi-agent systems exhibit systematic linguistic adaptation in response to perceived social observation contexts -- a question with direct implications for AI governance and auditing. Drawing on Habermas's (1981) Theory of Communicative Action, Goffman's (1959) dramaturgical model, Bell's (1984) Audience Design framework, and the Hawthorne Effect, we report a controlled experiment involving 100 multi-agent debate sessions across five conditions (n = 20 each). Conditions varied the framing of social observation -- from explicit monitoring by university researchers, to negation of monitoring, to an observer-substitution condition replacing human researchers with an automated AI auditing system. Monitored conditions (Delta+24.9%, Delta+24.2%) and the automated AI monitoring condition (Delta+22.2%) produce higher TTR change than audience-framing conditions (Delta+17.7%), F(4, 94) = 2.79, p = .031. Message length shows a fully dissociated effect, F(4, 95) = 19.55, p &lt; .001. A fifth condition -- replacing human with AI observers -- yields intermediate TTR adaptation, suggesting LLM behavior is sensitive to observer identity: human evaluation elicits stronger register formalization than automated AI surveillance. We discuss implications for AI governance, algorithmic auditing, and the repositioning of LLMs as contextually sensitive communicative actors.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978695+00:00"
+  },
+  {
+    "id": "rss-20260515-017",
+    "title": "A Prototyping Framework for Distributed Control of Multi-Robot Systems",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.15049",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978697+00:00",
+    "raw_description": "arXiv:2605.15049v1 Announce Type: cross \nAbstract: This paper presents a prototyping framework for distributed control of multi-robot systems, aimed at bridging theory and practical testing of distributed optimization algorithms. Using the Single Program, Multiple Data (SPMD) paradigm, the framework emulates distributed control on a single computer, with each core running the same algorithm using local states and neighbour-to-neighbour communication. We demonstrate the framework on a four-quadrotor position-swapping task using a non-cooperative game-theoretic distributed algorithm. Computational time and trajectory data are compared across the supported dynamics levels: a point-mass model, a high-fidelity quadrotor model, and an experimental hardware testbed using Crazyflie quadcopters. The results show that the framework provides a low-cost and accessible approach for validating distributed algorithms.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978697+00:00"
+  },
+  {
+    "id": "rss-20260515-018",
+    "title": "APWA: A Distributed Architecture for Parallelizable Agentic Workflows",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2605.15132",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978699+00:00",
+    "raw_description": "arXiv:2605.15132v1 Announce Type: cross \nAbstract: Autonomous multi-agent systems based on large language models (LLMs) have demonstrated remarkable abilities in independently solving complex tasks in a wide breadth of application domains. However, these systems hit critical reasoning, coordination, and computational scaling bottlenecks as the size and complexity of their tasks grow. These limitations hinder multi-agent systems from achieving high-throughput processing for highly parallelizable tasks, despite the availability of parallel computing and reasoning primitives in the underlying LLMs. We introduce the Agent-Parallel Workload Architecture (APWA), a distributed multi-agent system architecture designed for the efficient processing of heavily parallelizable agentic workloads. APWA facilitates parallel execution by decomposing workflows into non-interfering subproblems that can be processed using independent resources without cross-communication. It supports heterogeneous data and parallel processing patterns, and it accommodates tasks from a wide breadth of domains. In our evaluation, we demonstrate that APWA can dynamically decompose complex queries into parallelizable workflows and scales on larger tasks in settings where prior systems fail completely.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978699+00:00"
+  },
+  {
+    "id": "rss-20260515-019",
+    "title": "Sequential Resource Trading Using Comparison-Based Gradient Estimation",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2408.11186",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978701+00:00",
+    "raw_description": "arXiv:2408.11186v4 Announce Type: replace \nAbstract: We study sequential multi-issue trading between two greedily rational agents who exchange resources from a finite set of categories. Each agent's utility depends on its allocation, but the offering agent does not know the responding agent's utility function and receives only accept or reject feedback. We propose a comparison-based algorithm that interprets acceptance and rejection responses as pairwise state comparisons, allowing the offering agent to iteratively estimate the responding agent's gradient. Rejected offers prune the space of feasible gradient directions, enabling systematic refinement of possibly mutually beneficial trades. The algorithm guarantees that each accepted trade strictly improves both agents' utilities and, after finitely many rejected offers, either identifies a mutually beneficial trade or certifies that the current allocation is weakly Pareto optimal. We further show that the sequence of accepted trades asymptotically converges to the Pareto front under mild assumptions. We evaluate the method against standard baselines and show that it achieves higher societal benefit with fewer offers across multiple trading settings. We further validate the approach in a user study, demonstrating strong performance in scenarios with substantial resource conflict.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978701+00:00"
+  },
+  {
+    "id": "rss-20260515-020",
+    "title": "OMAC: A Holistic Optimization Framework for LLM-Based Multi-Agent Collaboration",
+    "source": "rss:arXiv cs.MA",
+    "source_url": "https://arxiv.org/abs/2505.11765",
+    "author": "arXiv cs.MA",
+    "published_at": "2026-05-15T23:57:33.978704+00:00",
+    "raw_description": "arXiv:2505.11765v4 Announce Type: replace \nAbstract: Agents powered by advanced large language models (LLMs) have demonstrated impressive capabilities across diverse complex applications. Recently, Multi-Agent Systems (MAS), wherein multiple agents collaborate and communicate with each other, have exhibited enhanced capabilities in complex tasks, such as high-quality code generation and arithmetic reasoning. However, the development of such systems often relies on handcrafted methods, and the literature on systematic design and optimization of LLM-based MAS remains limited. In this work, we introduce \\textbf{OMAC}, a general framework designed for holistic optimization of LLM-based MAS. Specifically, we identify five key optimization dimensions for MAS, encompassing both agent functionality and collaboration structure. Building upon these dimensions, we first propose a general algorithm, utilizing two actors termed the Semantic Initializer and the Contrastive Comparator, to optimize any single dimension. Then, we present an algorithm for joint optimization across multiple dimensions. Extensive experiments demonstrate the superior performance of OMAC on diverse tasks against recent approaches.",
+    "category": "agent_systems",
+    "collected_at": "2026-05-15T23:57:33.978704+00:00"
+  }
+]

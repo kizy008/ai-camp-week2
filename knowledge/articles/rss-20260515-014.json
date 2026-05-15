@@ -1,20 +1,21 @@
 {
   "id": "rss-20260515-014",
-  "title": "Macro-Action Based Multi-Agent Instruction Following through Value Cancellation",
+  "title": "Prompting Policies for Multi-step Reasoning and Tool-Use in Black-box LLMs with Iterative Distillation of Experience",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12655",
+  "source_url": "https://arxiv.org/abs/2605.14443",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867861+00:00",
-  "collected_at": "2026-05-15T00:00:33.867861+00:00",
-  "summary": "提出MAVIC方法，通过在指令边界修正贝尔曼备份，解决多智能体强化学习中指令中断宏动作导致的价值估计不一致问题。理论分析和实验表明，该方法在复杂协作环境中保持基任务性能的同时，显著提升指令遵从性。",
-  "score": 7,
+  "published_at": "2026-05-15T23:57:33.978691+00:00",
+  "collected_at": "2026-05-15T23:57:33.978691+00:00",
+  "summary": "本文提出一种基于强化学习的提示策略学习框架，通过迭代蒸馏经验来优化冻结黑盒大语言模型的多步推理与工具调用性能。轻量级prompter模型利用对比经验缓冲区和文本批评，将迭代提示优化压缩为单次策略权重，在逻辑推理和工具使用任务上取得显著提升（分别从55%到90%和74%到91%），且样本效率优于进化基线方法。",
+  "score": 8,
   "tags": [
-    "multi-agent reinforcement learning",
-    "instruction following",
-    "value correction",
-    "macro-action"
+    "reinforcement learning",
+    "prompt engineering",
+    "knowledge distillation",
+    "tool-use",
+    "multi-step reasoning"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095929+00:00"
+  "updated_at": "2026-05-15T23:58:48.686853+00:00"
 }

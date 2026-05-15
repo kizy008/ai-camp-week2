@@ -1,21 +1,20 @@
 {
   "id": "rss-20260515-015",
-  "title": "CHAL: Council of Hierarchical Agentic Language",
+  "title": "Agreement, Diversity, and Polarization Indices for Approval Elections",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12718",
+  "source_url": "https://arxiv.org/abs/2605.14983",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867863+00:00",
-  "collected_at": "2026-05-15T00:00:33.867863+00:00",
-  "summary": "CHAL框架将多智能体辩论建模为可废止领域的信念优化过程，通过梯度驱动的动态机制和可配置的元认知价值系统实现信念修正，实验表明该框架能有效揭示辩论轨迹与多样性增益。",
-  "score": 8,
+  "published_at": "2026-05-15T23:57:33.978693+00:00",
+  "collected_at": "2026-05-15T23:57:33.978693+00:00",
+  "summary": "本文提出用于批准选举的同意度、多样性和极化指数，这些指数在0到1之间取值并以饱和度归一化。通过分析多种选举数据，展示了新指数的应用与差异。",
+  "score": 7,
   "tags": [
-    "multi-agent",
-    "debate",
-    "belief optimization",
-    "defeasible reasoning",
-    "LLM"
+    "投票理论",
+    "极化指数",
+    "批准选举",
+    "社会选择"
   ],
-  "audience": "advanced",
+  "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095932+00:00"
+  "updated_at": "2026-05-15T23:58:48.686856+00:00"
 }

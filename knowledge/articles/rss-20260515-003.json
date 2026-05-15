@@ -1,21 +1,21 @@
 {
   "id": "rss-20260515-003",
-  "title": "Mechanism Plausibility in Generative Agent-Based Modeling",
+  "title": "IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12824",
+  "source_url": "https://arxiv.org/abs/2605.14851",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867823+00:00",
-  "collected_at": "2026-05-15T00:00:33.867823+00:00",
-  "summary": "本文提出机制合理性量表（Mechanism Plausibility Scale），通过区分生成充分性与机制合理性，为评估基于大语言模型的生成式主体模型提供分层标准。该工作整合了科学哲学与计算社会科学，帮助研究者明确模型在解释现象时的角色差异。",
-  "score": 7,
+  "published_at": "2026-05-15T23:57:33.978655+00:00",
+  "collected_at": "2026-05-15T23:57:33.978655+00:00",
+  "summary": "本文提出 IFPV，一种集成多智能体框架，用于生成运营规划和高保真度计划验证。通过分层智能体协作和对抗仿真引擎，显著提升任务成功率并降低运营成本。实验证明其验证环境更严格有效。",
+  "score": 8,
   "tags": [
-    "agent-based modeling",
-    "large language models",
-    "mechanism plausibility",
-    "social simulation",
-    "philosophy of science"
+    "multi-agent systems",
+    "operational planning",
+    "plan verification",
+    "adversarial simulation",
+    "LLM planning"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095889+00:00"
+  "updated_at": "2026-05-15T23:58:48.686814+00:00"
 }

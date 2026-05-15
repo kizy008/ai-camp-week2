@@ -1,21 +1,21 @@
 {
   "id": "rss-20260515-013",
-  "title": "Can LLM Agents Simulate Dynamic Networks? A Case Study on Email Networks with Phishing Synthesis",
+  "title": "Data-Augmented Game Starts for Accelerating Self-Play Exploration in Imperfect Information Games",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12507",
+  "source_url": "https://arxiv.org/abs/2605.14379",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867859+00:00",
-  "collected_at": "2026-05-15T00:00:33.867859+00:00",
-  "summary": "本文评估了LLM多智能体系统模拟动态网络的能力，发现现有框架在微观交互上表现良好但无法复现真实宏观拓扑。作者提出两种扩展（数据驱动事件触发和Hawkes过程）来保持网络保真度，并在邮件网络钓鱼攻击合成中展示了其有效性。",
-  "score": 8,
+  "published_at": "2026-05-15T23:57:33.978688+00:00",
+  "collected_at": "2026-05-15T23:57:33.978688+00:00",
+  "summary": "本文提出数据增强游戏起始（DAGS）方法，利用离线人类演示数据初始化中间状态，加速不完美信息博弈中正则化策略梯度方法的自对弈探索。实验表明，在固定计算预算下，DAGS能显著降低博弈的可利用性，并缓解由起始状态分布变化引起的偏置均衡问题。",
+  "score": 7,
   "tags": [
-    "LLM agents",
-    "multi-agent systems",
-    "dynamic networks",
-    "phishing synthesis",
-    "Hawkes processes"
+    "imperfect information games",
+    "self-play",
+    "reinforcement learning",
+    "exploration",
+    "game theory"
   ],
-  "audience": "advanced",
+  "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095925+00:00"
+  "updated_at": "2026-05-15T23:58:48.686850+00:00"
 }

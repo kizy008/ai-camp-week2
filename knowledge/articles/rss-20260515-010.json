@@ -1,20 +1,20 @@
 {
   "id": "rss-20260515-010",
-  "title": "When Does Hierarchy Help? Benchmarking Agent Coordination in Event-Driven Industrial Scheduling",
+  "title": "A general classification of the replication dynamics with a unique fixed point in the interior of simplex $S_N$",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13172",
+  "source_url": "https://arxiv.org/abs/2605.13883",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867852+00:00",
-  "collected_at": "2026-05-15T00:00:33.867852+00:00",
-  "summary": "本文提出DESBench基准，用于评估层次化事件驱动工业调度中的智能体协调，比较四种协调范式（集中式、层次式、异层次、全息式）的权衡。实验发现各范式在鲁棒性、效率、灵活性等方面各有优劣，揭示了协调设计对系统行为的关键影响。",
+  "published_at": "2026-05-15T23:57:33.978681+00:00",
+  "collected_at": "2026-05-15T23:57:33.978681+00:00",
+  "summary": "本文给出了进化博弈论中复制动力学方程在单纯形内部具有唯一不动点的充要条件，并讨论了不同类型，解决了n>3时分类未完全解决的问题。",
   "score": 8,
   "tags": [
-    "multi-agent systems",
-    "coordination",
-    "industrial scheduling",
-    "benchmarking"
+    "进化博弈论",
+    "复制动力学",
+    "不动点分类",
+    "数学分析"
   ],
   "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095916+00:00"
+  "updated_at": "2026-05-15T23:58:48.686841+00:00"
 }

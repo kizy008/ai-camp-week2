@@ -1,20 +1,21 @@
 {
   "id": "rss-20260515-001",
-  "title": "DelAC: A Multi-agent Reinforcement Learning of Team-Symmetric Stochastic Games",
+  "title": "Ready from Day 1: Population-Aware Coordination for Large-Scale Constrained Multi-Agent Systems",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12555",
+  "source_url": "https://arxiv.org/abs/2605.13900",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867803+00:00",
-  "collected_at": "2026-05-15T00:00:33.867803+00:00",
-  "summary": "本文研究团队对称随机博弈，证明存在团队对称纳什均衡，并提出基于演员-评论家的多智能体强化学习算法DelAC。实验结果显示该算法在仿真中显著优于多种现有方法，为团队协作博弈提供了有效解决方案。",
-  "score": 7,
+  "published_at": "2026-05-15T23:57:33.978631+00:00",
+  "collected_at": "2026-05-15T23:57:33.978631+00:00",
+  "summary": "提出群体感知协调接口，通过学习条件于群体摘要的原始和对偶映射，使上游规划器能在迭代循环中高效评估资源计划，避免每周期重新训练，在供应链容量控制案例中降低预测误差16-19%和违规20-51%。",
+  "score": 8,
   "tags": [
-    "Multi-agent Reinforcement Learning",
-    "Game Theory",
-    "Stochastic Games",
-    "Actor-Critic"
+    "多智能体系统",
+    "约束优化",
+    "拉格朗日松弛",
+    "群体感知协调",
+    "Sim2Real"
   ],
-  "audience": "intermediate",
+  "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095875+00:00"
+  "updated_at": "2026-05-15T23:58:48.686801+00:00"
 }

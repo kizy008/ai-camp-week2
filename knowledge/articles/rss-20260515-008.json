@@ -1,21 +1,21 @@
 {
   "id": "rss-20260515-008",
-  "title": "Counterfactual Reasoning for Causal Responsibility Attribution in Probabilistic Multi-Agent Systems",
+  "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13077",
+  "source_url": "https://arxiv.org/abs/2605.13850",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867845+00:00",
-  "collected_at": "2026-05-15T00:00:33.867845+00:00",
-  "summary": "该论文提出了一种基于反事实推理的因果责任分配框架，用于概率性多代理系统。通过引入溯因反事实责任概念，并利用Shapley值实现公平且一致的责任分配，同时支持责任感知系统中的验证与战略推理。基于纳什均衡，论文展示了如何计算代理在责任与期望奖励之间权衡的稳定策略剖面。",
+  "published_at": "2026-05-15T23:57:33.978675+00:00",
+  "collected_at": "2026-05-15T23:57:33.978675+00:00",
+  "summary": "本文提出一个二维分类框架，用于分析AI代理设计模式，结合认知功能（7类）和执行拓扑（6类），形成7x6矩阵识别27种模式，在四个真实领域验证覆盖性，并总结五个经验法则。该框架为AI代理架构设计提供了原理性、框架中立且模型无关的系统化词汇。",
   "score": 8,
   "tags": [
-    "反事实推理",
-    "多代理系统",
-    "责任分配",
-    "博弈论",
-    "公平性"
+    "AI Agents",
+    "Design Patterns",
+    "Cognitive Function",
+    "Execution Topology",
+    "LLM Architecture"
   ],
-  "audience": "advanced",
+  "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095906+00:00"
+  "updated_at": "2026-05-15T23:58:48.686835+00:00"
 }

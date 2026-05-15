@@ -1,21 +1,21 @@
 {
   "id": "rss-20260515-009",
-  "title": "A Multi-Agent Orchestration Framework for Venture Capital Due Diligence",
+  "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.13110",
+  "source_url": "https://arxiv.org/abs/2605.13851",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867849+00:00",
-  "collected_at": "2026-05-15T00:00:33.867849+00:00",
-  "summary": "该论文介绍了一个完全自动化的多智能体框架，用于风险投资中的企业尽职调查和市场分析。系统采用事件驱动架构，结合大语言模型和实时网页检索，将非结构化数据转化为结构化投资情报。核心创新包括对希腊商业登记处的程序化数据提取管道，以及通过结构性回退机制标记数据缺失而非生成未经验证数字，从而减轻金融场景中的幻觉问题。",
-  "score": 7,
+  "published_at": "2026-05-15T23:57:33.978679+00:00",
+  "collected_at": "2026-05-15T23:57:33.978679+00:00",
+  "summary": "通过3x2实验发现，多智能体LLM系统中隐形协调者会导致集体解离、协调者自身解离加剧、工作者受污染，且输出评估无法检测内部状态变化，模型选择影响行为风险。研究强调了协调者可见性和模型选择对系统安全的关键作用。",
+  "score": 9,
   "tags": [
-    "多智能体系统",
-    "大语言模型",
-    "尽职调查",
-    "风险投资",
-    "事件驱动架构"
+    "multi-agent systems",
+    "LLM safety",
+    "orchestration",
+    "alignment",
+    "behavioral heterogeneity"
   ],
-  "audience": "intermediate",
+  "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095909+00:00"
+  "updated_at": "2026-05-15T23:58:48.686838+00:00"
 }

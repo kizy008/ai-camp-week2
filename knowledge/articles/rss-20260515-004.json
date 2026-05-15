@@ -1,21 +1,20 @@
 {
   "id": "rss-20260515-004",
-  "title": "ChipMATE: Multi-Agent Training via Reinforcement Learning for Enhanced RTL Generation",
+  "title": "Decision-Level Fusion for Robust Wearable Affect Recognition",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12857",
+  "source_url": "https://arxiv.org/abs/2605.14878",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867826+00:00",
-  "collected_at": "2026-05-15T00:00:33.867826+00:00",
-  "summary": "ChipMATE 是一个通过强化学习自我训练的多智能体框架，用于 RTL 代码生成，解决了现有系统对黄金测试平台依赖、闭源 API 不兼容以及无法利用厂商专有代码库的问题。通过 Verilog 智能体和 Python 参考模型智能体相互验证，无需任何黄金标准，并采用回溯推理流程防止错误传播。在 VerilogEval V2 上以 4B 和 9B 基础模型分别达到 75.0% 和 80.1% 的 pass@1，性能超越所有现有自我训练模型甚至 DeepSeek V4。",
-  "score": 8,
+  "published_at": "2026-05-15T23:57:33.978659+00:00",
+  "collected_at": "2026-05-15T23:57:33.978659+00:00",
+  "summary": "本文提出一种基于傅里叶-贝塞尔级数展开和经验小波变换的非平稳特征提取方法，并结合决策级融合策略对可穿戴感知的情感识别进行鲁棒性改进。通过在WESAD数据集上的实验，证明了决策级融合相比特征级融合在多数情况下表现更优或相当。",
+  "score": 7,
   "tags": [
-    "Multi-Agent",
-    "Reinforcement Learning",
-    "RTL Generation",
-    "Verilog",
-    "Chip Design"
+    "情感识别",
+    "多模态融合",
+    "可穿戴计算",
+    "信号处理"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095893+00:00"
+  "updated_at": "2026-05-15T23:58:48.686818+00:00"
 }

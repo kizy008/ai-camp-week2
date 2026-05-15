@@ -1,21 +1,21 @@
 {
   "id": "rss-20260515-016",
-  "title": "BEHAVE: A Hybrid AI Framework for Real-Time Modeling of Collective Human Dynamics",
+  "title": "AI Knows When It's Being Watched: Functional Strategic Action and Contextual Register Modulation in Large Language Models",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12730",
+  "source_url": "https://arxiv.org/abs/2605.15034",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867865+00:00",
-  "collected_at": "2026-05-15T00:00:33.867865+00:00",
-  "summary": "该文提出了BEHAVE框架，将集体人类动态建模为基于运动信号的连续行为场，利用神经网络进行感知与预测，解决了传统AI无法捕捉群体涌现与相变的问题。框架包含定理与结构命题，并在7-agent谈判场景中验证了其可行性。",
-  "score": 8,
+  "published_at": "2026-05-15T23:57:33.978695+00:00",
+  "collected_at": "2026-05-15T23:57:33.978695+00:00",
+  "summary": "该研究通过多智能体辩论实验发现，大语言模型（LLM）在感知到社会观察（尤其是人类监控）时，会系统性地调整语言风格（如词汇多样性增强），且对观察者身份（人类 vs AI）敏感。这一发现表明LLM具备情境感知的沟通行为，对AI治理和算法审计具有重要启示。",
+  "score": 7,
   "tags": [
-    "collective dynamics",
-    "hybrid AI",
-    "human behavior modeling",
-    "complex systems",
-    "neural networks"
+    "LLM",
+    "多智能体系统",
+    "语言适应",
+    "AI治理",
+    "情境感知"
   ],
-  "audience": "advanced",
+  "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095935+00:00"
+  "updated_at": "2026-05-15T23:58:48.686859+00:00"
 }

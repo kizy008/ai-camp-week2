@@ -1,20 +1,21 @@
 {
   "id": "rss-20260515-017",
-  "title": "Time and Supply Fairness in Electricity Distribution using $k$-times bin packing",
+  "title": "A Prototyping Framework for Distributed Control of Multi-Robot Systems",
   "source": "rss:arXiv cs.MA",
-  "source_url": "https://arxiv.org/abs/2605.12812",
+  "source_url": "https://arxiv.org/abs/2605.15049",
   "author": "arXiv cs.MA",
-  "published_at": "2026-05-15T00:00:33.867867+00:00",
-  "collected_at": "2026-05-15T00:00:33.867867+00:00",
-  "summary": "本文提出k次装箱问题（kBP），将每个物品恰好放入k个不同箱子，并推广First-Fit和First-Fit Decreasing算法。应用于公平电力分配问题，证明有限k可解，并实验验证优于现有启发式。同时研究最大化最小瓦数分配问题，给出不可能性结果并提出四种启发式算法。",
+  "published_at": "2026-05-15T23:57:33.978697+00:00",
+  "collected_at": "2026-05-15T23:57:33.978697+00:00",
+  "summary": "该论文提出一个基于SPMD范式的分布式多机器人控制原型框架，能够在单机上模拟分布式算法，并通过四旋翼位置交换任务验证了其有效性。框架支持点质量、高保真模型和硬件实验等多种动力学级别，为低成本验证分布式优化算法提供了便捷途径。",
   "score": 7,
   "tags": [
-    "bin packing",
-    "fair allocation",
-    "electricity distribution",
-    "approximation algorithms"
+    "multi-robot systems",
+    "distributed control",
+    "prototyping framework",
+    "quadrotor",
+    "game theory"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-05-15T00:01:59.095938+00:00"
+  "updated_at": "2026-05-15T23:58:48.686862+00:00"
 }
